@@ -18,8 +18,9 @@ script_file = ""
 master_almanac_filename = "almanac.json"
 master_almanac = json.load(open(master_almanac_filename, "r"))
 
-
 def init_characters():
+    global master_almanac
+
     for i in master_almanac["characters"]:
         characters.append(i)
 
@@ -73,14 +74,16 @@ def add_characters(doc, is_script_almanac):
             dummy_paragraph_run.add_break(WD_BREAK.COLUMN)
             is_even = True
 
+        image_file_path = "Images/Official Characters/"
+
         # Add a centered picture with height of 1 inch
         if not first_character:
             picture_run = doc.paragraphs[-1].add_run()
-            picture_run.add_picture("Images/"+character_information[9]["image_file_name"], height=Inches(1))
+            picture_run.add_picture(image_file_path+character_information[9]["image_file_name"], height=Inches(1))
             doc.paragraphs[-1].alignment = WD_ALIGN_PARAGRAPH.CENTER
         else:
             first_character = False
-            doc.add_picture("Images/"+character_information[9]["image_file_name"], height=Inches(1))
+            doc.add_picture(image_file_path+character_information[9]["image_file_name"], height=Inches(1))
             doc.paragraphs[-1].alignment = WD_ALIGN_PARAGRAPH.CENTER
 
         character_name = doc.add_paragraph()
@@ -254,6 +257,26 @@ def create_master_almanac():
     doc.save("Master Almanac.docx")
 
 
+def intro_paragraph_page(doc):
+    intro_filename = input("Filename for script introduction (leave blank for none): ")
+    if intro_filename == "":
+        return doc
+
+    intro_file = open("Introductions/"+intro_filename)
+
+    lines = intro_file.readlines()
+
+    for line in lines:
+        p = doc.add_paragraph()
+        p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        p_run = p.add_run(line)
+        p_run.bold = True
+        p_run.font.size = Pt(16)
+        p_run.font.name = "Dumbledor 1"
+    return doc
+
+
+
 def create_sub_almanac():
     doc = docx.Document()
 
@@ -270,6 +293,8 @@ def create_sub_almanac():
     title_page_addendum.font.name = "Dumbledor 1"
 
     doc.add_page_break()
+
+    doc = intro_paragraph_page(doc)
 
     filter_characters()
 
