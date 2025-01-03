@@ -6351,6 +6351,44 @@
             {
                 "type": "Demon"
             }
+        ],
+        "wizard": [
+            {
+                "name": "Wizard"
+            },
+            {
+                "ability": "Once per game, choose to make a wish. If granted, it might have a price & leave a clue as to its nature."
+            },
+            {
+                "quote": "Genies are overrated."
+            },
+            {
+                "summary": ""
+            },
+            {
+                "bullets": []
+            },
+            {
+                "examples": []
+            },
+            {
+                "how-to-run": [
+                    "At any point in the game, the Wizard can publicly or privately choose to make a wish. Once the wish has been made, choose a price to balance the effects of the wish, and give a clue that helps good players identify what the wish is about. Use the Wizard's ? reminder tokens if needed.",
+                    "When the Wizard dies, the effects of their wish are still in play. "
+                ]
+            },
+            {
+                "boxes": []
+            },
+            {
+                "alignment": "Evil"
+            },
+            {
+                "image_file_name": "Icon_wizard.png"
+            },
+            {
+                "type": "Minion"
+            }
         ]
     }
 }
