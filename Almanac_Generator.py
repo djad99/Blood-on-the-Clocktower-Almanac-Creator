@@ -250,6 +250,13 @@ def create_master_almanac():
     title_page_addendum.font.size = Pt(20)
     title_page_addendum.font.name = "Dumbledor 1"
 
+    title_page_credit = title_page.add_run("\nCreated by David Gray\nLink to GitHub:")
+    title_page_credit.font.size = Pt(20)
+    title_page_credit.font.name = "Dumbledor 1"
+
+    doc.add_picture("Images/QR_Code/QR_Code.png", height=Inches(2))
+    doc.paragraphs[-1].alignment = WD_ALIGN_PARAGRAPH.CENTER
+
     doc.add_page_break()
 
     doc = add_characters(doc, False)
@@ -291,6 +298,13 @@ def create_sub_almanac():
     title_page_addendum = title_page.add_run("\nUnofficial Almanac for Blood on the Clocktower")
     title_page_addendum.font.size = Pt(20)
     title_page_addendum.font.name = "Dumbledor 1"
+
+    title_page_credit = title_page.add_run("\nCreated by David Gray\nLink to GitHub:")
+    title_page_credit.font.size = Pt(20)
+    title_page_credit.font.name = "Dumbledor 1"
+
+    doc.add_picture("Images/QR_Code/QR_Code.png", height=Inches(2))
+    doc.paragraphs[-1].alignment = WD_ALIGN_PARAGRAPH.CENTER
 
     doc.add_page_break()
 
