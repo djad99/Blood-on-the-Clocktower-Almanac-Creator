@@ -2942,7 +2942,7 @@
                 "ability": "You are safe from the Demon.\n"
             },
             {
-                "quote": "As David said to Goliath, as Theseus said to the Minotaur, as Arjuna said to Bhagadatta... No."
+                "quote": "As David said to Goliath, as Theseus said to the Minotaur, as Arjuna said to Bhagata... No."
             },
             {
                 "summary": "The Soldier can not be killed by the Demon."
@@ -6066,36 +6066,35 @@
                 "ability": "On day 3, Minions become Riot & nominees die but nominate an alive player immediately. This must happen."
             },
             {
-                "quote": "Larga vida a la revoluci\u00f3n! Mi revolucion!"
+                "quote": "Larga vida a la revoluci\u00f3n! Mi revoluci\u00f3n!"
             },
             {
                 "summary": "Riot kills everybody in a panic."
             },
             {
                 "bullets": [
-                    "Each player that is nominated dies immediately. Even though they are dead, they may nominate again today. This may happen multiple times per day.",
-                    "The player that was nominated must nominate again immediately or lose their chance to do so. The Storyteller counts down \u201c3... 2... 1...\u201d to let the player know how long they have to nominate, should they wish to. If they don\u2019t, no more nominations are allowed today.",
+                    "On the 3rd day, each player that is nominated dies immediately. Even though they are dead, they may nominate again today. This may happen multiple times per day.",
+                    "The player that was nominated must nominate again immediately or lose their chance to do so. The Storyteller counts down \u201c3... 2... 1...\u201d to let the player know how long they have to nominate, should they wish to. If they don\u2019t, the Storyteller nominates instead.",
                     "The good team wins if all Riot players are dead. If the last Riot dies and only two players are alive, they do not nominate, and the good team wins.",
-                    "On the third day, each nominated player must nominate again. If they do not, the Storyteller will nominate on their behalf, or declare that that player\u2019s team loses.",
-                    "If just three players are alive when the third day nominations begin, the group chooses which player nominates first. If no one nominates, the day ends and evil wins."
+                    "If nobody nominates on the 3rd day, the Storyteller makes the 1st nomination instead.",
+                    "Minions may change into Riot as the nomination phase beings on the 3rd day."
                 ]
             },
             {
                 "examples": [
-                    "Alex nominates Lewis. Lewis dies and nominates Ben. Ben dies and nominates Marianna. Marianna dies and nominates Lachlan. Lachlan dies but does not nominate. Four players died today.",
-                    "On the third day, a Riot player is nominated. They die and nominate the Amnesiac, who dies and nominates the Empath, who dies and nominates a Riot player. The game ends immediately, as all Riot players are dead."
+                    "Alex nominates Lewis. Lewis dies and nominates Ben. Ben dies and nominates Marianna. Marianna dies and nominates Lachlan. Lachlan dies but does not nominate. Four players died today."
                 ]
             },
             {
                 "how-to-run": [
-                    "While setting up the game, before putting the character tokens in the bag, replace all Minion tokens with Riot tokens. During the first night, skip the Minion Info step. During the Demon Info step, wake all Riot players and allow them to make eye contact. Show each Riot player three character bluffs, then put them to sleep.",
-                    "Each time a player is nominated, they die. Declare that they are dead, and add a shroud immediately. Tell them that they may nominate again. Publicly count down \u201c3... 2... 1...\u201d and if they nominate before their time runs out, repeat this process for the new nominee (they die, may nominate etc.) If they do not nominate before their time runs out, the day ends.",
-                    "On the third day, nominated players die and must nominate again. If the day ends with more than two players alive, evil wins."
+                    "On the 1st day, add the \u201cDay 1\u201d reminder to the Grimoire. On the 2nd day, add the \u201cDay 2\u201d reminder to the Grimoire. On the 3rd day, add the \u201cDay 3\u201d reminder to the Grimoire.",
+                    "On the 3rd night, wake each Minion. Show the \u201cYou are\u201d info token, then the \u201cRiot\u201d token, then put each Minion to sleep. Either now, or later during the 3rd day, replace all Minion tokens with Riot tokens.",
+                    "During the 3rd day, each time a player is nominated, they die. Declare that they are dead, and add a shroud immediately. Tell them to nominate again and publicly count down \u201c3... 2... 1...\u201d After they nominate, repeat this process until all Riot are dead, or just 2 players are alive. Declare which team has won.",
+                    "If the players do not nominate at all on the 3rd day, or if a nominated player does not nominate before their time runs out, nominate a player - they die and must nominate again."
                 ]
             },
             {
                 "boxes": [
-                    "Optional Rule: When Riot is in play, the dead may not be nominated. (This is more fun, and is the original intent of Riot.)"
                 ]
             },
             {
