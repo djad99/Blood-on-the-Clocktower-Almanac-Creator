@@ -17,6 +17,8 @@ characters = []
 script_file = ""
 master_almanac_filename = "almanac.json"
 master_almanac = json.load(open(master_almanac_filename, "r"))
+sao_order_filename = "SAO.json"
+sao_order = json.load(open(sao_order_filename, "r"))
 
 def init_characters():
     global master_almanac
@@ -225,6 +227,12 @@ def filter_characters(script_characters):
         else:
             demons.append(character)
 
+    if "y" in input("Would you like this sorted in Steven Approved Order?").lower():
+        townsfolk = sort_characters(townsfolk, "Townsfolk")
+        outsiders = sort_characters(outsiders, "Outsiders")
+        minions = sort_characters(minions, "Minions")
+        demons = sort_characters(demons, "Demons")
+
     characters = townsfolk
     characters.extend(outsiders)
     characters.extend(minions)
@@ -277,6 +285,14 @@ def intro_paragraph_page(doc):
     return doc
 
 
+def sort_characters(character_type_list, character_type):
+    global sao_order
+    sao_ordered_characters = sao_order[character_type]
+    if sao_ordered_characters == []:
+        return character_type_list
+
+    tmp_list = [value for value in sao_ordered_characters if value in character_type_list]
+    return tmp_list
 
 def create_sub_almanac():
     doc = docx.Document()
@@ -351,6 +367,9 @@ def add_character():
         boxes.append(input("Box : "))
     icon_file_path = "Icon_"+transform_character_name(name)+".png"
     type = input("Character type: ")
+    character_after_sao = ""
+    if "y" not in input("Are they first in Steven Approved Order? "):
+        character_after_sao = input("What character do they go after in SAO: ")
 
     alignment = "Evil"
     if type == "Townsfolk" or type == "Outsider":
@@ -388,10 +407,25 @@ def add_character():
     with open(master_almanac_filename, 'w') as f:
         json.dump(master_almanac, f, indent=4)
 
+    sao_original = sao_order[type]
+    if character_after_sao == "":
+        sao_original.insert(0, transform_character_name(name))
+    else:
+        character_index = sao_order[type].index(transform_character_name(character_after_sao))
+        sao_original.insert(character_index+1, transform_character_name(name))
+
+    sao_order[type] = sao_original
+
+    with open(sao_order_filename, 'w') as f:
+        json.dump(sao_order, f, indent=4)
+
+
 init_characters()
 if "y" in input("Would you like to add a character: ").lower():
     add_character()
-elif "y" in input("Would you want to create a master almanac: ").lower():
-    create_master_almanac()
 else:
-    create_sub_almanac()
+    print("Creating an almanac!")
+    if "y" in input("Would you want to create a master almanac: ").lower():
+        create_master_almanac()
+    else:
+        create_sub_almanac()
