@@ -195,29 +195,15 @@ def add_characters(doc, is_script_almanac):
 
     return doc
 
-
-def filter_characters(script_characters):
+def tomd_order():
     global characters
-    characters_appearing = []
-
-    first = True
-
-    for i in script_characters:
-        if not first:
-            characters_appearing.append(i)
-        else:
-            first = False
-
-    tmp_list = [value for value in characters_appearing if value in characters]
-
-    # Got all of the characters we need, now to sort them by character type.
 
     townsfolk = []
     outsiders = []
     minions = []
     demons = []
 
-    for character in tmp_list:
+    for character in characters:
         if master_almanac["characters"][character][10]["type"] == "Townsfolk":
             townsfolk.append(character)
         elif master_almanac["characters"][character][10]["type"] == "Outsider":
@@ -237,6 +223,26 @@ def filter_characters(script_characters):
     characters.extend(outsiders)
     characters.extend(minions)
     characters.extend(demons)
+
+
+def filter_characters(script_characters):
+    global characters
+    characters_appearing = []
+
+    first = True
+
+    for i in script_characters:
+        if not first:
+            characters_appearing.append(i)
+        else:
+            first = False
+
+    tmp_list = [value for value in characters_appearing if value in characters]
+
+    # Got all of the characters we need, now to sort them by character type.
+    
+    characters = tmp_list
+    tomd_order()
 
 
 def create_master_almanac():
@@ -260,6 +266,9 @@ def create_master_almanac():
     doc.paragraphs[-1].alignment = WD_ALIGN_PARAGRAPH.CENTER
 
     doc.add_page_break()
+    
+    if 'y' in input("Would you like this sorted in Townsfolk Outsider Minion Demon order (default is full alphabetical): "):
+    	tomd_order()
 
     doc = add_characters(doc, False)
 
