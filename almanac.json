@@ -228,93 +228,6 @@
                 "type": "Demon"
             }
         ],
-        "acrobat": [
-            {
-                "name": "Acrobat"
-            },
-            {
-                "ability": "Each night*, choose a player: if they are or become drunk or poisoned tonight, you die."
-            },
-            {
-                "quote": "Welcome, one and all, to the greatest show on earth."
-            },
-            {
-                "summary": "The Acrobat dies if the people they choose are drunk or poisoned."
-            },
-            {
-                "bullets": []
-            },
-            {
-                "examples": []
-            },
-            {
-                "how-to-run": [
-                    "Each night except the first, wake the Acrobat. The Acrobat points at a player. Put the Acrobat to sleep. Mark the chosen player with the CHOSEN reminder token.",
-                    "If the chosen player is drunk or poisoned at any point during the night phase, the Acrobat dies\u2014put the Acrobat DEAD by the Acrobat's character token in the Grimoire and put a shroud on it."
-                ]
-            },
-            {
-                "boxes": [
-                    "For the purpose of the Acrobat's ability, the Drunk registers as drunk."
-                ]
-            },
-            {
-                "alignment": "Good"
-            },
-            {
-                "image_file_name": "Icon_acrobat.png"
-            },
-            {
-                "type": "Townsfolk"
-            }
-        ],
-        "alchemist": [
-            {
-                "name": "Alchemist"
-            },
-            {
-                "ability": "You have a Minion ability. When using this, the Storyteller may prompt you to choose differently."
-            },
-            {
-                "quote": "Visit the interior of the Earth. By rectification thou shalt find the hidden stone. Above the gold, lieth the red. Kether in Malkuth."
-            },
-            {
-                "summary": "The Alchemist has a Minion ability."
-            },
-            {
-                "bullets": [
-                    "The Alchemist learns which ability this is on the first night.",
-                    "They are still a good Townsfolk. They win when good wins, and lose when good loses. They register as good and as the Alchemist.",
-                    "The Alchemist does not wake to learn who the other Minions are or who the Demon is, like Minions do.",
-                    "If the Alchemist\u2019s Minion ability adds or removes characters during setup, this still occurs during setup."
-                ]
-            },
-            {
-                "examples": [
-                    "The Alchemist has the Poisoner\u2019s ability. Each night, the Alchemist wakes and chooses a player to poison.",
-                    "The Alchemist has the Scarlet Woman\u2019s ability. The Imp kills themselves at night, and the Alchemist becomes the good Imp.",
-                    "The Alchemist has the Assassin\u2019s ability. The Dreamer chooses the Alchemist. The Dreamer learns that they are either the Alchemist or the Assassin."
-                ]
-            },
-            {
-                "how-to-run": [
-                    "During the first night, wake the Alchemist. Show the YOU ARE info token then the character token of a Minion. Put the Alchemist to sleep. Mark the Alchemist with the IS THE ALCHEMIST reminder. Swap the Alchemist token with this Minion token. Turn the Minion token upside-down. (This shows they are still good.)",
-                    "The Alchemist has this Minion ability. They use it as if they were a Minion, and wake at night when that Minion would normally wake to use their ability."
-                ]
-            },
-            {
-                "boxes": []
-            },
-            {
-                "alignment": "Good"
-            },
-            {
-                "image_file_name": "Icon_alchemist.png"
-            },
-            {
-                "type": "Townsfolk"
-            }
-        ],
         "alsaahir": [
             {
                 "name": "Alsaahir"
@@ -561,44 +474,6 @@
                 "type": "Townsfolk"
             }
         ],
-        "balloonist": [
-            {
-                "name": "Balloonist"
-            },
-            {
-                "ability": "Each night, you learn a player of a different character type than last night. [+0 or +1 Outsider]"
-            },
-            {
-                "quote": "More heat! Higher! Higher! Pi\u00f9 alto! Ahhh... it is so beautiful from up here, don't you agree? Can you see the children fishing by the river, under the willow? Can you see the glint of the sun on the circus tent-poles? What's this? An old man, alone, passed out in the vineyard? Less heat! Lower! Lower! Vai pi\u00f9 in basso!"
-            },
-            {
-                "summary": "The Balloonist knows players that are different character types."
-            },
-            {
-                "bullets": []
-            },
-            {
-                "examples": [
-                    "On the first night, the Balloonist learns Lewis (i.e. the Storyteller points to Lewis). On the second night, the Balloonist learns Doug. On the third night, the Balloonist learns Lachlan. On the fourth night, the Balloonist learns Marianna.",
-                    "Ben is the Balloonist. On the first night, Ben learns Sarah. On the second night, Ben learns Abdallah. On the third night, Ben dies, so does not learn any more players. Sarah is claiming to be the Monk and Abdallah is claiming to be the Goblin. Ben assumes that he has learnt one Townsfolk player and one Minion player, but he is incorrect - Sarah is the Lunatic and Abdallah is the Leviathan. Ben has actually learnt an Outsider player and a Demon player."
-                ]
-            },
-            {
-                "how-to-run": []
-            },
-            {
-                "boxes": []
-            },
-            {
-                "alignment": "Good"
-            },
-            {
-                "image_file_name": "Icon_balloonist.png"
-            },
-            {
-                "type": "Townsfolk"
-            }
-        ],
         "banshee": [
             {
                 "name": "Banshee"
@@ -614,7 +489,7 @@
             },
             {
                 "bullets": [
-                    "When alive, the Banshee nominates and votes like a regular player.",
+                    "When alive, the Banshee nominates and votes as normal.",
                     "When dead, they may nominate twice per day, even though dead players may normally not nominate at all.",
                     "When dead, they may vote for any nomination they wish and do not need a vote token to do so. They may vote twice for the same nomination.",
                     "The Banshee only gains these powers if they were killed by the Demon. Dying by execution or to a non-Demon ability does not count.",
@@ -643,49 +518,6 @@
             },
             {
                 "image_file_name": "Icon_banshee.png"
-            },
-            {
-                "type": "Townsfolk"
-            }
-        ],
-        "bountyhunter": [
-            {
-                "name": "Bounty Hunter"
-            },
-            {
-                "ability": "You start knowing 1 evil player. If the player you know dies, you learn another evil player tonight. [1 Townsfolk is evil]"
-            },
-            {
-                "quote": "Alone, I walk these streets, paved with the sick stench of corruption. Its thickness worms its way into my nostrils, unbidden, burning with revulsion. And anticipation. The illness of this wretched place grows each night. And I... I am the cure."
-            },
-            {
-                "summary": "The Bounty Hunter learns all the evil players. One. Player. At. A. Time."
-            },
-            {
-                "bullets": []
-            },
-            {
-                "examples": [
-                    "On the first night, the Bounty Hunter learns that Edd is evil. Edd is the King who has been turned evil by the Bounty Hunter. The next day, the King dies. The following night, the Bounty Hunter learns that Abdallah is evil. Abdallah is the Goblin.",
-                    "On the first night, the Bounty Hunter learns that Evin is evil. Three days later, Evin dies. That night, the Bounty Hunter learns Marianna is evil. Marianna is a Minion. Three nights later, the Demon kills Marianna and the Bounty Hunter learns that Alex is evil. Alex is the Demon. The Tea Lady, who was made evil by the Bounty Hunter, is still alive."
-                ]
-            },
-            {
-                "how-to-run": [
-                    "At the start of the first night, wake any player with a Townsfolk character and show them the \u201cYou are\u201d card and the thumbs down hand signal to let them know they are evil. Rotate their token 180 degrees in the grimoire. They do not learn anything else other than their new alignment, they do not know who the Minions or Demon are and they continue to register as a Townsfolk to abilities; it\u2019s just their alignment that has changed.",
-                    "When the Bounty Hunter wakes, point to an evil player. This can be a Minion, Demon, Traveller or the evil Townsfolk, anyone that is evil or registering as evil. If that player dies, regardless of whether they die at night or during the day, regardless of whether they\u2019re evil or not, wake the Bounty Hunter that night and show them a new evil player.",
-                    "Note that the Bounty Hunter is quite late in the night order on the first night. This is the time to wake them to show them the player they are learning is evil. The player that started evil, however, should be told immediately on the first night that they are evil and you as Storyteller should also bear this in mind when doing other first night information \u2013 that player is already evil even though the Bounty Hunter has not woken yet.",
-                    "If the Bounty Hunter is drunk or poisoned or in a Vortox game at any point when they would learn information, you may (must if Vortox) give them incorrect information and show a good player. If they later sober up, they do not learn any new information, even though they still think that a good player is evil. When the player they saw dies, they learn a new player that night."
-                ]
-            },
-            {
-                "boxes": []
-            },
-            {
-                "alignment": "Good"
-            },
-            {
-                "image_file_name": "Icon_bountyhunter.png"
             },
             {
                 "type": "Townsfolk"
@@ -928,44 +760,6 @@
                 "type": "Townsfolk"
             }
         ],
-        "cultleader": [
-            {
-                "name": "Cult Leader"
-            },
-            {
-                "ability": "Each night, you become the alignment of an alive neighbor. If all good players choose to join your cult, your team wins."
-            },
-            {
-                "quote": "Thinking themselves wise, they became fools."
-            },
-            {
-                "summary": "The Cult Leader convinces others to join their cult to end the game. But which team will win?"
-            },
-            {
-                "bullets": []
-            },
-            {
-                "examples": [
-                    "The Cult Leader neighbours the Farmer and the Magician. On the first night, the Cult Leader remains good. The Magician is executed, and dies, and the Cult Leader's living neighbours are now the Farmer and the Marionette. The Storyteller decides to make the Cult Leader evil. The next night, even though the Cult Leader's living neighbours are still the Farmer and the Marionette, the Storyteller decides to make the Cult Leader good again.",
-                    "The Cult Leader is evil. The Cult Leader requests that all players join their cult. All evil players put their hand up to join, but only half the good players put their hand up to join. Nothing happens. That night, the Cult Leader turns good. The following day, the Cult Leader requests that all players join their cult. No evil players put their hand up to join, but all the good players put their hand up to join. The game ends and good wins, because the Cult Leader is good."
-                ]
-            },
-            {
-                "how-to-run": []
-            },
-            {
-                "boxes": []
-            },
-            {
-                "alignment": "Good"
-            },
-            {
-                "image_file_name": "Icon_cultleader.png"
-            },
-            {
-                "type": "Townsfolk"
-            }
-        ],
         "dreamer": [
             {
                 "name": "Dreamer"
@@ -1201,49 +995,6 @@
             },
             {
                 "image_file_name": "Icon_farmer.png"
-            },
-            {
-                "type": "Townsfolk"
-            }
-        ],
-        "fisherman": [
-            {
-                "name": "Fisherman"
-            },
-            {
-                "ability": "Once per game, during the day, visit the Storyteller for some advice to help your team win."
-            },
-            {
-                "quote": "This was my favourite part of the river... see how the sunlight makes a rainbow from the monastery to the market? This was the best place for big fish. And the older I get, the bigger they were."
-            },
-            {
-                "summary": "The Fisherman knows something that nobody else can know - what should be done."
-            },
-            {
-                "bullets": []
-            },
-            {
-                "examples": [
-                    "The Fisherman goes up to the Storyteller, and they are told \"not to trust Ben\", this is not because Ben is evil, but because his drunk information is leading the good team astray.",
-                    "On the third day, the Fisherman learns \u201cKeep the players claiming to be Outsiders alive\u201d. These players are secretly the Klutz and the Fearmonger. The Storyteller believes that keeping these players alive is more likely to end up with good executing the Demon.",
-                    "It is the third day, and the Fisherman visits the Storyteller to ask for advice. They are told to \u201cExecute Jeremy\u201d because Jeremy is the Drunk, and the Undertaker would discover this if they were executed.",
-                    "It is the last day, and the Fisherman visits the Storyteller to ask for advice. They are told \u201cDon\u2019t ask Kevin too many questions\u201d because Kevin is the Mutant, and his power activating would lose the game for good."
-                ]
-            },
-            {
-                "how-to-run": [
-                    "At any time during the day, the Fisherman can approach the Storyteller privately for some advice to help them win. The Storyteller\u2019s pieces of advice are not \u201cfacts\u201d. They are strategy tips that the Storyteller believes will help the Fisherman win if they are followed.",
-                    "Generally, Fisherman advice should be able to be structured as \u201cyou should\u201d or \u201cyou should not\u201d. It doesn\u2019t need to explicitly include those words but should always follow that concept of suggestions that can be followed, rather than information about what is like a Savant would get. So \u201ckill player X\u201d or \u201cfind out who is the Drunk\u201d or \u201cyou should rethink which info you\u2019re trusting\u201d or \u201ctrust player Y\u201d are all great Fisherman advice, for example."
-                ]
-            },
-            {
-                "boxes": []
-            },
-            {
-                "alignment": "Good"
-            },
-            {
-                "image_file_name": "Icon_fisherman.png"
             },
             {
                 "type": "Townsfolk"
@@ -1857,54 +1608,6 @@
                 "type": "Townsfolk"
             }
         ],
-        "lycanthrope": [
-            {
-                "name": "Lycanthrope"
-            },
-            {
-                "ability": "Each night*, choose an alive player. If good, they die & the Demon doesn\u2019t kill tonight. One good player registers as evil."
-            },
-            {
-                "quote": "Beneath the thin veneer of civilisation lies a howling madness."
-            },
-            {
-                "summary": "The Lycanthrope roams the night, killing the innocent, whilst the Demon cowers indoors."
-            },
-            {
-                "bullets": [
-                    "The Lycanthrope must choose an alive player each night. If the Lycanthrope chooses a dead player, the Storyteller shakes their head no and prompts the Lycanthrope to choose a different player.",
-                    "If the player that the Lycanthrope chooses is good, that player dies, and the Demon can not kill tonight.",
-                    "If the player the Lycanthrope attacks is evil, that player does not die, and the Demon may still kill tonight.",
-                    "If the Lycanthrope attacks a good player but that good player doesn\u2019t die, the Demon may still kill tonight.",
-                    "One good player registers as evil. They also register as evil to the Lycanthrope, so cannot be killed by the Lycanthrope."
-                ]
-            },
-            {
-                "examples": [
-                    "The Lycanthrope attacks the General. The General dies. Later that night, the Imp attacks the Amnesiac. The Amnesiac does not die, because the Imp cannot kill tonight.",
-                    "The Lycanthrope attacks the Farmer. The Farmer dies, and another good player becomes a Farmer. The Magician was poisoned by the Pukka last night but does not die tonight, because the Pukka cannot kill tonight.",
-                    "The Lycanthrope attacks the Godfather. The Godfather does not die, because the Godfather is evil. The Lycanthrope attacks the Zealot, who is registering as evil due to the Lycanthrope\u2019s ability. The Zealot does not die. The Demon attacks the Lycanthrope and the Lycanthrope dies."
-                ]
-            },
-            {
-                "how-to-run": [
-                    "During setup, mark one good player with the Lycanthrope\u2019s FAUX PAW reminder.",
-                    "Each night except the first, wake the Lycanthrope. They point at any player. Put the Lycanthrope to sleep. If the chosen player is good, that player dies \u2014 mark them with the Lycanthrope\u2019s DEAD reminder. Later that night, wake the Demon, as normal, but the Demon can not kill. If the chosen player is evil, nothing happens."
-                ]
-            },
-            {
-                "boxes": []
-            },
-            {
-                "alignment": "Good"
-            },
-            {
-                "image_file_name": "Icon_lycanthrope.png"
-            },
-            {
-                "type": "Townsfolk"
-            }
-        ],
         "magician": [
             {
                 "name": "Magician"
@@ -2460,51 +2163,6 @@
             },
             {
                 "image_file_name": "Icon_poppygrower.png"
-            },
-            {
-                "type": "Townsfolk"
-            }
-        ],
-        "preacher": [
-            {
-                "name": "Preacher"
-            },
-            {
-                "ability": "Each night, choose a player: a Minion, if chosen, learns this. All chosen Minions have no ability."
-            },
-            {
-                "quote": "It is better to be rich and healthy than poor and sick."
-            },
-            {
-                "summary": "The Preacher removes the Minion abilities of selected players."
-            },
-            {
-                "bullets": []
-            },
-            {
-                "examples": [
-                    "Alex is the Preacher. On the first night, the Preacher chooses the Fearmonger. The Fearmonger loses their ability and learns that they have been chosen by the Preacher. On the second night, the Preacher chooses the Slayer. Nothing happens because the Slayer is not a Minion. On the third night, the Preacher chooses the Po. Nothing happens because the Po is not a Minion. On the fourth night, the Preacher chooses the Poisoner. The Poisoner loses their ability and learns that they have been chosen by the Preacher."
-                ]
-            },
-            {
-                "how-to-run": [
-                    "Each night, wake the Preacher and have them choose a player. If they choose a Minion, put a \u201cNo Ability\u201d reminder token next to that Minion. Put the Preacher to sleep. If applicable, wake the Minion the Preacher chose tonight, show them the \u201cthis character selected you\u201d card and the Preacher token. Put the Minion back to sleep.",
-                    "From now on, that Minion has no ability. If they would normally wake at night to make a choice, take an action or learn information due to their ability, they no longer do so. If their ability would otherwise have an effect on the game while they are marked by the \"No Ability\" token, it does not.",
-                    "If the Preacher dies, remove all \u201cNo Ability\u201d tokens from affected Minions. The Minions regain their abilities. Minions with expended once-per-game abilities do not gain another use of that ability. Affected Minions are not told that the Preacher is dead, but may be able to figure it out when they start waking up again etc.",
-                    "If a Preacher is made drunk or poisoned, Minions who have lost their abilities to the Preacher regain them, but lose them again when the Preacher becomes healthy and sober.",
-                    "If a Minion who has been chosen by the Preacher later becomes a different type of character (ie not a Minion), they are no longer affected by the Preacher\u2019s ability. Remove the relevant \u201cNo Ability\u201d reminder token. Also, evil players are not affected by the Preacher ability just because they\u2019re evil, they need to be explicitly a Minion character in order to be affected.",
-                    "In a similar vein, a non-Minion who later becomes a Minion is not affected by having been chosen by the Preacher before they became a Minion. If the Preacher chooses them after they become a Minion, the Preacher ability works as normal.",
-                    "If a preached Minion dies and is resurrected they do not regain their ability, they are still preached provided the Preacher is still alive."
-                ]
-            },
-            {
-                "boxes": []
-            },
-            {
-                "alignment": "Good"
-            },
-            {
-                "image_file_name": "Icon_preacher.png"
             },
             {
                 "type": "Townsfolk"
@@ -3860,10 +3518,11 @@
                 "quote": "Pleauze shtay shtill. Thinks nid tiime for hillink. Myrhh-myrhh."
             },
             {
-                "summary": "The Plague Doctor brings an extra Minion ability into play. The Storyteller chooses which Minion ability is gained."
+                "summary": "The Plague Doctor brings an extra Minion ability into play."
             },
             {
                 "bullets": [
+                    "The Storyteller chooses which Minion ability is gained.",
                     "This ability is in effect for the rest of the game.",
                     "Nothing else changes for the Storyteller \u2013 they don\u2019t become evil, they don\u2019t become a player, they are not a legitimate player to be targeted by other abilities, and they cannot vote or nominate.",
                     "If the Plague Doctor is drunk or poisoned when they die, the Storyteller doesn\u2019t gain a Minion ability, even when the Plague Doctor becomes sober and healthy."
@@ -4413,53 +4072,6 @@
                 "type": "Minion"
             }
         ],
-        "boomdandy": [
-            {
-                "name": "Boomdandy"
-            },
-            {
-                "ability": "If you are executed, all but 3 players die. After a 10 to 1 countdown, the player with the most players pointing at them, dies."
-            },
-            {
-                "quote": "Tick... Tick... Tick... TOCK."
-            },
-            {
-                "summary": "The Boomdandy explodes when executed, killing most other players."
-            },
-            {
-                "bullets": [
-                    "If the Boomdandy is executed, the Storyteller kills other players, one at a time, until only three are left alive.",
-                    "The Demon will be one of the remaining three players (otherwise, the game would be over).",
-                    "The players have a short countdown to decide who to kill next. There is no further nomination or execution today. Instead, all players point at the player they want to die. When countdown ends, the Storyteller counts the number of fingers pointed at each player. If it is a tie, then night falls (and evil probably wins due to the Demon killing that night).",
-                    "Even dead players who have no vote token may point.",
-                    "Players may change who they are pointing at up until the countdown is over, at which point their decision is final.",
-                    "The Boomdandy only explodes due to an execution. Deaths by other means, such as via a Golem or a Psychopath, don\u2019t count. If the Boomdandy is executed but doesn\u2019t die (due to a Devil\u2019s Advocate etc.), they still explode.",
-                    "If a character can\u2019t die, such as the Fool or the Sailor, the Storyteller may rule that four players remain alive after a Boomdandy explosion."
-                ]
-            },
-            {
-                "examples": [
-                    "Amy is the Boomdandy. She is executed. She explodes, killing all players except for the Po, the Witch, and the Moonchild. Frantically, all players start pointing at each other, and talking about who should be pointed at. After the countdown, the Storyteller calls \u201cFreeze\u201d and the Witch has the most number of fingers pointed at them, and dies. Evil wins."
-                ]
-            },
-            {
-                "how-to-run": [
-                    "If the Boomdandy is executed, declare that the Boomdandy has exploded. Enter the circle, put your hand out towards the Boomdandy, and rotate around the circle. (Similar to running a vote.) When your hand reaches a living player, say \u201cYou live\u201d or say \u201cYou die\u201d as that player dies. When you have completed the circle, three players will be alive, including the Demon. Then, begin counting down from 10. When the contdown ends, ask all players to immediately freeze (to stay still) while you count the number of players who are pointing at each player. The player with the most fingers pointed at them, dies. This will end the game, since just two players are alive, so declare which team has won."
-                ]
-            },
-            {
-                "boxes": []
-            },
-            {
-                "alignment": "Evil"
-            },
-            {
-                "image_file_name": "Icon_boomdandy.png"
-            },
-            {
-                "type": "Minion"
-            }
-        ],
         "cerenovus": [
             {
                 "name": "Cerenovus"
@@ -4509,7 +4121,7 @@
         ],
         "devilsadvocate": [
             {
-                "name": "Devil'S Advocate"
+                "name": "Devil's Advocate"
             },
             {
                 "ability": "Each night, choose a living player (different to last night): if executed tomorrow, they don't die."
@@ -4946,55 +4558,6 @@
                 "type": "Minion"
             }
         ],
-        "organgrinder": [
-            {
-                "name": "Organ Grinder"
-            },
-            {
-                "ability": "All players keep their eyes closed when voting & the vote tally is secret. Each night, choose if you are drunk or not."
-            },
-            {
-                "quote": "Round and round the handles go. The more you dance the less you know."
-            },
-            {
-                "summary": "The Organ Grinder makes voting secret."
-            },
-            {
-                "bullets": [
-                    "When a player is nominated, players vote with eyes closed.",
-                    "The Storyteller does not count the votes out loud, and does not reveal how many players voted once voting is complete.",
-                    "The Storyteller does not reveal which player is \u201cabout to die\u201d.",
-                    "After nominations have closed, the Storyteller reveals which player is executed, as normal.",
-                    "Dead players may vote once if they have a vote token. Their vote token is removed at the end of the day instead of after the vote."
-                ]
-            },
-            {
-                "examples": [
-                    "There are 8 players alive. The Noble is nominated. All players close eyes to vote and the Noble gets 5 votes. The Imp is nominated. All players close eyes to vote and the Imp gets 7 votes. The Pixie is nominated. All players close eyes to vote and the Pixie gets 4 votes. After nominations close, the Storyteller declares that Doug (the Imp) is executed and dies, and that good has won."
-                ]
-            },
-            {
-                "how-to-run": [
-                    "Each night, wake the Organ Grinder. The Organ Grinder either nods or shakes their head. If they nod their head, mark them with the DRUNK reminder. If they shake their head, remove their DRUNK reminder. Put the Organ Grinder to sleep.",
-                    "When a player has been nominated and a vote is just about to begin, and the Organ Grinder is sober, ask all players to close their eyes. If they ask why, tell them that an Organ Grinder is in play. When counting votes, do so silently. Afterwards, do not reveal how many players voted, nor if the nominee is \u201cabout to die\u201d. If there were enough votes to execute the nominee, mark them with the ABOUT TO DIE reminder. Ask players to open their eyes, and if there are any more nominations.",
-                    "When nominations are closed, declare that the player marked ABOUT TO DIE, is executed."
-                ]
-            },
-            {
-                "boxes": [
-                    "Players are not allowed to use other methods to determine who is voting, such as touch or sound. It is a secret."
-                ]
-            },
-            {
-                "alignment": "Evil"
-            },
-            {
-                "image_file_name": "Icon_organgrinder.png"
-            },
-            {
-                "type": "Minion"
-            }
-        ],
         "pithag": [
             {
                 "name": "Pit-Hag"
@@ -5331,52 +4894,6 @@
                 "type": "Minion"
             }
         ],
-        "widow": [
-            {
-                "name": "Widow"
-            },
-            {
-                "ability": "On your first night, look at the Grimoire & choose a player: they are poisoned. 1 good player knows a Widow is in play."
-            },
-            {
-                "quote": "More wine? Ch\u00e2teau d\u2019Ergot \u201907 is a very special vintage. My yes, very special indeed."
-            },
-            {
-                "summary": "The Widow knows all characters and poisons the exact person they think is most useful."
-            },
-            {
-                "bullets": []
-            },
-            {
-                "examples": [
-                    "The Widow sees the Grimoire and points to the Sailor character token. The Sailor is poisoned this game. The Sailor is sober, but dies when executed.",
-                    "On the third night, the Pit-Hag turns themselves into the Widow. That night, the good Scapegoat learns that a Widow is in play.",
-                    "On the first night the Widow looks at the Grimoire and poisons themself. The good player that would\u2019ve learned a Widow is in play does not."
-                ]
-            },
-            {
-                "how-to-run": [
-                    "On their first night, wake the Widow and show them the Grimoire for as long as they need. The Widow points to a character token in the Grimoire, or a player. Mark that player with a POISONED reminder. Put the Widow to sleep. Wake any good player. Show them the Widow character token. Put that good player to sleep.",
-                    "If the Widow dies or changes character, their poison ends. Likewise, their poison vanishes while the Widow is poisoned/drunk. When a Widow poisons a player, night 1 has already begun, so it does not prevent any [setup] abilities from taking effect.",
-                    "If a Widow is created mid-game, execute the first paragraph of the how to run just like you would if they were in play on night 1 \u2013 it\u2019s the Widow\u2019s first night that matters for their ability, not how many nights into the whole game you are.",
-                    "If the Widow chooses to poison themselves, no-one is informed that a Widow is in play.",
-                    "Only the Preacher, Sailor and Poisoner can prevent the Widow from getting to poison on night 1 and in all of these cases, a good player would be told that the Widow is in play once the preaching/drunk/poison wears off. If Sailor drunked or Poisoner poisoned, the Widow can be shown a fake grimoire. Also, their poison choice has no effect for the rest of the game, even if they become sober/healthy later. If preached, the Widow is merely shown the Preacher in play and does not see the grimoire, even if the Preacher is dead/poisoned/drunk later in the game.",
-                    "If the good player who knows the Widow is in play turns evil while the Widow is alive, wake a new good player and show them the Widow character token."
-                ]
-            },
-            {
-                "boxes": []
-            },
-            {
-                "alignment": "Evil"
-            },
-            {
-                "image_file_name": "Icon_widow.png"
-            },
-            {
-                "type": "Minion"
-            }
-        ],
         "witch": [
             {
                 "name": "Witch"
@@ -5471,54 +4988,6 @@
             },
             {
                 "type": "Minion"
-            }
-        ],
-        "alhadikhia": [
-            {
-                "name": "Al-Hadikhia"
-            },
-            {
-                "ability": "Each night*, you may choose 3 players (all players learn who): each silently chooses to live or die, but if all live, all die."
-            },
-            {
-                "quote": "Alsukut min dhahab."
-            },
-            {
-                "summary": "The Al-Hadikhia puts three players in a dilemma \u2013 who will choose to die, so that others can live?"
-            },
-            {
-                "bullets": [
-                    "The Al-Hadikhia chooses three players per night. Everyone learns which three were chosen. Each player makes their choice before the next player is revealed.",
-                    "All players must be silent when the Al-Hadikhia acts at night. This period lasts from when the Storyteller first declares that a player has been chosen, until the Storyteller says that it ends.",
-                    "At night, the Storyteller asks players out loud if they choose to live. If they nod their head, they live. If they shake their head, they die. Players may be brought back to life this way.",
-                    "If all players choose to live, then they all die instead. If a living player chose to die but did not die, they count as alive for this calculation."
-                ]
-            },
-            {
-                "examples": [
-                    "The Al-Hadikhia chooses Evin, Lachlan, and Sarah. Evin chooses to die. Lachlan chooses to die. Sarah chooses to live. In the morning, Evin and Lachlan are dead, and Sarah is alive.",
-                    "The Al-Hadikhia chooses Alex, Lewis, and Doug, who is dead. Alex chooses life. Lewis chooses life. Doug chooses life, so is now alive. Since all players are now alive, all three players die."
-                ]
-            },
-            {
-                "how-to-run": [
-                    "Each night except the first, wake the Al-Hadikhia. They point at three players. Mark these players with the 1, 2 and 3 reminders, in the order the Al-Hadikhia chose. Put the Al- Hadikhia to sleep. Wake the player marked 1 and say \u201cThe Al- Hadikhia has chosen\u201d then the name of the player, then \u201cDo you choose to live?\u201d They either nod or shake their head. Put them to sleep. If they chose to live, remove their shroud (if any), and if they choose to die, add a shroud. Repeat for players marked 2 then 3. If all three players are alive (none of them have a shroud) then add a shroud to all three. They die. Declare that the time of silence has ended.",
-                    "Each dawn, declare which players marked 1, 2 and 3 are alive and which are dead. Do this even if a player\u2019s alive or dead status did not change during the night."
-                ]
-            },
-            {
-                "boxes": [
-                    "You may need to remind all players to be silent as the Al-Hadikhia acts. This includes non-verbal noise. This prevents players signaling to others about whether they have chosen to live or die."
-                ]
-            },
-            {
-                "alignment": "Evil"
-            },
-            {
-                "image_file_name": "Icon_alhadikhia.png"
-            },
-            {
-                "type": "Demon"
             }
         ],
         "fanggu": [
@@ -6093,8 +5562,7 @@
                 ]
             },
             {
-                "boxes": [
-                ]
+                "boxes": []
             },
             {
                 "alignment": "Evil"
@@ -6290,7 +5758,9 @@
                 ]
             },
             {
-                "boxes": []
+                "boxes": [
+                    "Choose a phrase that is fairly plain. If the Demon has an unusual phrase each day, they will likely die or say it rarely. If the Demon has a common, believable phrase, they will likely say it each day, perhaps more than once each day."
+                ]
             },
             {
                 "alignment": "Evil"
@@ -6394,6 +5864,641 @@
             },
             {
                 "type": "Minion"
+            }
+        ],
+        "acrobat": [
+            {
+                "name": "Acrobat"
+            },
+            {
+                "ability": "Each night*, choose a player: if they are or become drunk or poisoned tonight, you die."
+            },
+            {
+                "quote": "Ladies and gentlemen, hold fast to your hats, for I shall defy the very laws of gravity and dance upon the air, a marvel of agility and daring, all for your delight and wonder!"
+            },
+            {
+                "summary": "The Acrobat dies when they find a drunk or poisoned player."
+            },
+            {
+                "bullets": [
+                    "Each night except the first, the Acrobat chooses a player. If the chosen player is sober and healthy, nothing happens. If the player is drunk or poisoned, the Acrobat dies.",
+                    "If the Acrobat is drunk or poisoned, they cannot die to their own ability.",
+                    "The Acrobat may choose any player, dead or alive, even themself.",
+                    "If the chosen player is sober and healthy at the time the Acrobat picks, but becomes drunk or poisoned later in the night, the Acrobat dies.",
+                    "The Acrobat does not learn if the player they selected was drunk, or poisoned, or both."
+                ]
+            },
+            {
+                "examples": [
+                    "The Sailor chooses the Assassin, and the Storyteller makes the Sailor drunk. The Acrobat chooses the Sailor, and dies because the Sailor is drunk.",
+                    "The Acrobat chooses the Tinker, who is sober and healthy. Nothing happens.",
+                    "The Acrobat chooses the Preacher. Later that night, the Pukka poisons the Preacher. The Acrobat dies, because the Preacher is no longer healthy."
+                ]
+            },
+            {
+                "how-to-run": [
+                    "Each night except the first, wake the Acrobat. They point to a player. Put the Acrobat to sleep.",
+                    "If the player the Acrobat pointed to is drunk or poisoned, or becomes drunk or poisoned at any time tonight, the Acrobat dies."
+                ]
+            },
+            {
+                "boxes": []
+            },
+            {
+                "alignment": "Good"
+            },
+            {
+                "image_file_name": "Icon_acrobat.png"
+            },
+            {
+                "type": "Townsfolk"
+            }
+        ],
+        "alchemist": [
+            {
+                "name": "Alchemist"
+            },
+            {
+                "ability": "You have a Minion ability. When using this, the Storyteller may prompt you to choose differently."
+            },
+            {
+                "quote": "Visit the interior of the Earth. By rectification thou shalt find the hidden stone. Above the gold, lieth the red. Kether in Malkuth."
+            },
+            {
+                "summary": "The Alchemist has a Minion ability."
+            },
+            {
+                "bullets": [
+                    "The Alchemist\u2019s ability is usually that of a not-in-play Minion, but can duplicate an in-play Minion ability.",
+                    "The Alchemist learns which ability this is on the first night.",
+                    "They are still a good Townsfolk. They win when good wins, and lose when good loses. They register as good and as the Alchemist.",
+                    "The Alchemist does not wake to learn who the other Minions are or who the Demon is, like Minions do.",
+                    "If the Alchemist\u2019s Minion ability adds or removes characters during setup, this still occurs during setup.",
+                    "If the Alchemist has an ability where the player chooses something, like the Poisoner or the Vizier, the Storyteller may ask the Alchemist to choose differently. The Alchemist must do so."
+                ]
+            },
+            {
+                "examples": [
+                    "The Alchemist has the Baron ability. There are 2 extra Outsiders in play.",
+                    "The Alchemist has the Poisoner's ability. On the first night, they wake and poison the Wizard. On the second night, they wake and poison the Alsaahir. On the third night, they wake and try to poison the Lord of Typhon, but the Storyteller prompts them to choose differently. They poison the King instead. The Lord of Typhon is not poisoned."
+                ]
+            },
+            {
+                "how-to-run": [
+                    "During the first night, wake the Alchemist. Show the YOU ARE info token then the character token of a Minion. Put the Alchemist to sleep. If the Alchemist has a not-in-play Minion ability, mark the Alchemist with the IS THE ALCHEMIST reminder and swap the Alchemist token with this Minion token and turn it upside down. (This shows they are still good.)",
+                    "The Alchemist has this Minion ability. They use it as if they were a Minion, and wake at night when that Minion would normally wake to use their ability.",
+                    "If the Alchemist makes a choice using their ability, you may ask them to choose differently. If this is during the day, ask verbally. If this is during the night, shake your head, point at the Alchemist ability text on the character sheet, and wait for the Alchemist to choose again."
+                ]
+            },
+            {
+                "boxes": []
+            },
+            {
+                "alignment": "Good"
+            },
+            {
+                "image_file_name": "Icon_alchemist.png"
+            },
+            {
+                "type": "Townsfolk"
+            }
+        ],
+        "alhadikhia": [
+            {
+                "name": "Al-Hadikhia"
+            },
+            {
+                "ability": "Each night*, you may choose 3 players (all players learn who): each silently chooses to live or die, but if all live, all die."
+            },
+            {
+                "quote": "Alsukut min dhahab."
+            },
+            {
+                "summary": "The Al-Hadikhia puts three players in a dilemma \u2014 who will choose to die, so that others can live?"
+            },
+            {
+                "bullets": [
+                    "The Al-Hadikhia may choose three players per night. Everyone learns which three were chosen. Each player makes their choice before the next player is revealed.",
+                    "All players must be silent when the Al-Hadikhia acts at night. This period lasts from when the Storyteller first declares that a player has been chosen, until the Storyteller says that it ends.",
+                    "If the Al-Hadikhia chooses no one, no announcement is made and nobody dies to the Al-Hadikhia tonight.",
+                    "At night, the Storyteller asks players out loud if they choose to live. If they nod their head, they live. If they shake their head, they die. Players may be brought back to life this way.",
+                    "If all players choose to live, then they all die instead. If a player chose to die but did not die, they count as alive for this calculation."
+                ]
+            },
+            {
+                "examples": [
+                    "The Al-Hadikhia chooses Evin, Lachlan, and Sarah. Evin chooses to die. Lachlan chooses to die. Sarah chooses to live. In the morning, Evin and Lachlan are dead, and Sarah is alive.",
+                    "The Al-Hadikhia chooses Alex, Lewis, and Doug, who is dead. Alex chooses life. Lewis chooses life. Doug chooses life, so is now alive. Since all players are now alive, all three players die."
+                ]
+            },
+            {
+                "how-to-run": [
+                    "Each night except the first, wake the Al-Hadikhia. They may point at three players. If they do, mark these players with the 1, 2 and 3 reminders, in the order the Al-Hadikhia chose. Put the Al-Hadikhia to sleep. Wake the player marked 1 and say \u201cThe Al-Hadikhia has chosen\u201d then the name of the player, then \u201cDo you choose to live?\u201d They either nod or shake their head. Put them to sleep. If they chose to live, remove their shroud (if any), and if they choose to die, add a shroud. Repeat for players marked 2 then 3. If all three players are alive (none of them have a shroud) then add a shroud to all three. They die. Declare that the time of silence has ended.",
+                    "Each dawn, declare which players marked 1, 2 and 3 are alive and which are dead. Do this even if a player\u2019s alive or dead status did not change during the night."
+                ]
+            },
+            {
+                "boxes": [
+                    "You may need to remind all players to be silent as the Al-Hadikhia acts. This includes non-verbal noise. This prevents players signaling to others about whether they have chosen to live or die."
+                ]
+            },
+            {
+                "alignment": "Evil"
+            },
+            {
+                "image_file_name": "Icon_alhadikhia.png"
+            },
+            {
+                "type": "Demons"
+            }
+        ],
+        "balloonist": [
+            {
+                "name": "Balloonist"
+            },
+            {
+                "ability": "Each night, you learn a player of a different character type than last night. [+0 or +1 Outsider]"
+            },
+            {
+                "quote": "More heat! Higher! Higher! Pi\u00f9 alto! Ahhh... it is so beautiful from up here, don't you agree? Can you see the children fishing by the river, under the willow? Can you see the glint of the sun on the circus tent-poles? What's this? An old man, alone, passed out in the vineyard? Less heat! Lower! Lower! Vai pi\u00f9 in basso!"
+            },
+            {
+                "summary": "The Balloonist learns players of different character types."
+            },
+            {
+                "bullets": [
+                    "Each time the Balloonist learns a player, the player must have a different character type to the previously shown player.",
+                    "The Balloonist does not learn the character type of the player they learn.",
+                    "The shown player can be alive or dead.",
+                    "The shown player can be good or evil.",
+                    "If the Balloonist is drunk or poisoned, they may learn a character of the same type as the previously shown player. When the Balloonist becomes sober and healthy, they must learn a player of a different character type to the previously shown player.",
+                    "During setup, the Storyteller may choose to add an Outsider due to the Balloonist\u2019s ability."
+                ]
+            },
+            {
+                "examples": [
+                    "Abdallah is the Vizier, Lewis is the High Priestess, and Sarah is the Politician. On the first night, the Balloonist learns Abdallah. On the second night, the Balloonist learns Lewis. On the third night, the Balloonist learns Sarah.",
+                    "Julian is the Nightwatchman, Alex is the Sailor, and Lachlan is the Puzzlemaster. On the first night, the Balloonist learns Julian. On the second night, the Poisoner chooses the Balloonist. Because the Balloonist is poisoned, the Storyteller chooses to show the Balloonist another Townsfolk, and the Balloonist learns Alex. On the third night, the Balloonist is sober and healthy, and learns Lachlan, who is a different character type to Alex."
+                ]
+            },
+            {
+                "how-to-run": [
+                    "During setup, you may add an Outsider.",
+                    "When preparing the first night, mark any player with the KNOW reminder. When preparing each night afterwards, mark a character of a different type than the current with the KNOW reminder.",
+                    "Each night, wake the Balloonist. Point to the player marked KNOW. Put the Balloonist to sleep."
+                ]
+            },
+            {
+                "boxes": []
+            },
+            {
+                "alignment": "Good"
+            },
+            {
+                "image_file_name": "Icon_balloonist.png"
+            },
+            {
+                "type": "Townsfolk"
+            }
+        ],
+        "boomdandy": [
+            {
+                "name": "Boomdandy"
+            },
+            {
+                "ability": "If you are executed, all but 3 players die. After a 10 to 1 countdown, the player with the most players pointing at them, dies."
+            },
+            {
+                "quote": "Tick... Tick... Tick... TOCK."
+            },
+            {
+                "summary": "The Boomdandy explodes when executed, killing most other players."
+            },
+            {
+                "bullets": [
+                    "If the Boomdandy is executed, the Storyteller kills other players, one at a time, until only three are left alive.",
+                    "The Demon will be one of the remaining three players (otherwise, the game would be over).",
+                    "Afterward, there is no further nomination or execution today. Instead, the Storyteller counts down from ten and all players point at the player they want to die. When the countdown ends, the Storyteller counts the number of fingers pointed at each player. If it is a tie, the day ends (and evil probably wins due to the Demon killing that night).",
+                    "Even dead players who have no vote token may point.",
+                    "Players may change who they are pointing at up until the countdown ends, at which point their decision is final.",
+                    "The Boomdandy only explodes due to an execution. Deaths by other means, such as via a Golem or a Psychopath, don\u2019t count. If the Boomdandy is executed but doesn\u2019t die (due to a Devil\u2019s Advocate etc.), they still explode.",
+                    "If a character can\u2019t die, such as the Fool or the Sailor, the Storyteller may rule that four players remain alive after a Boomdandy explosion."
+                ]
+            },
+            {
+                "examples": [
+                    "Amy is the Boomdandy. She is executed. She explodes, killing all players except for the Po, the Widow, and the Fortune Teller. Frantically, all players start pointing at each other, and talking about who should be pointed at. After counting down, the Storyteller calls \u201cFreeze\u201d and the Widow has the most number of fingers pointed at them, and dies. Evil wins."
+                ]
+            },
+            {
+                "how-to-run": [
+                    "If the Boomdandy is executed, declare that the Boomdandy has exploded. Enter the circle, put your hand out towards the Boomdandy, and rotate around the circle. (Similar to running a vote.) When your hand reaches a living player, say \u201cYou live\u201d or say \u201cYou die\u201d as that player dies. When you have completed the circle, three players will be alive, including the Demon. Then, count down from ten. After you say \u201cone\u201d, ask all players to immediately freeze (to stay still) while you count the number of players who are pointing at each player. The player with the most fingers pointed at them, dies. This will end the game, since just two players are alive, so declare which team has won."
+                ]
+            },
+            {
+                "boxes": [
+                    "Your countdown should be longer than ten seconds, and as slow, dramatic, or erratic as you like!"
+                ]
+            },
+            {
+                "alignment": "Evil"
+            },
+            {
+                "image_file_name": "Icon_boomdandy.png"
+            },
+            {
+                "type": "Minions"
+            }
+        ],
+        "bountyhunter": [
+            {
+                "name": "Bounty Hunter"
+            },
+            {
+                "ability": "You start knowing 1 evil player. If the player you know dies, you learn another evil player tonight. [1 Townsfolk is evil]"
+            },
+            {
+                "quote": "Alone, I walk these streets, paved with the sick stench of corruption. Its thickness worms its way into my nostrils, unbidden, burning with revulsion. And anticipation. The illness of this wretched place grows each night. And I... I am the cure."
+            },
+            {
+                "summary": "The Bounty Hunter tracks down evil players, one at a time."
+            },
+            {
+                "bullets": [
+                    "The Bounty Hunter starts knowing one evil player. When that player dies, they learn another evil player.",
+                    "The Bounty Hunter only learns the evil player, not their character.",
+                    "If the Bounty Hunter is drunk or poisoned when they should learn a new player, the Storyteller may show them a good player. When the recently shown player dies, the Bounty Hunter learns a new player that night.",
+                    "The Bounty Hunter cannot learn the same evil player twice.",
+                    "If the Bounty Hunter is in the game at setup, one Townsfolk is evil. The Bounty Hunter may learn the evil Townsfolk."
+                ]
+            },
+            {
+                "examples": [
+                    "Alex is the Bounty Hunter, Ben is the Harpy, and Abdallah is the Tea Lady. During setup, the Storyteller decides that Abdallah will be the Evil Tea Lady. On the first night, Alex learns Ben. On day 3, Ben is executed. That night, Alex learns Abdallah.",
+                    "On the first night, the Bounty Hunter learns Julian, who is the evil Baron. When Julian dies, the Poisoner targets the Bounty Hunter. That night, the Bounty Hunter learns Evin, who is the good Magician.",
+                    "Lachlan is the Drunk who thinks he is the Bounty Hunter. No evil Townsfolk was added at setup, because the Bounty Hunter is not in play. On the first night, Lachlan learns Marianna, who is the good Empath. When Marianna dies, Lachlan learns Doug, who is the good Flowergirl."
+                ]
+            },
+            {
+                "how-to-run": [
+                    "During setup, turn one Townsfolk character token upside down, to represent that they are evil. Mark one evil player with the KNOW reminder.",
+                    "During the first night, wake the Bounty Hunter. Point to the player marked KNOW. Put the Bounty Hunter to sleep.",
+                    "Each time the player marked KNOW dies, mark a new evil player with the KNOW reminder. That night, wake the Bounty Hunter, point to the player marked KNOW, then put the Bounty Hunter to sleep."
+                ]
+            },
+            {
+                "boxes": []
+            },
+            {
+                "alignment": "Good"
+            },
+            {
+                "image_file_name": "Icon_bountyhunter.png"
+            },
+            {
+                "type": "Townsfolk"
+            }
+        ],
+        "cultleader": [
+            {
+                "name": "Cult Leader"
+            },
+            {
+                "ability": "Each night, you become the alignment of an alive neighbor. If all good players choose to join your cult, your team wins."
+            },
+            {
+                "quote": "Thinking themselves wise, they became fools."
+            },
+            {
+                "summary": "The Cult Leader wins if everyone joins their cult."
+            },
+            {
+                "bullets": [
+                    "At the end of each night, the Cult Leader becomes the alignment of a living neighbor.",
+                    "Once per day, the Cult Leader may publicly choose to form a cult. If all good players vote to join the cult, the game ends immediately and the Cult Leader\u2019s team wins.",
+                    "The Cult Leader may form a cult at any point in the day.",
+                    "Voting to join a cult does not require a vote token.",
+                    "Players may say whatever they want at any time, so a player bluffing as the Cult Leader may pretend to form a cult."
+                ]
+            },
+            {
+                "examples": [
+                    "On day 3, the good Cult Leader\u2019s living neighbors are the good Town Crier and the evil Goblin. The Cult Leader requests to form a cult, and all good players vote to join the cult. The game ends and the good team wins!",
+                    "The Cult Leader neighbors the No Dashii. On day 2, the Cult Leader attempts to form a cult. All players vote to join the cult, but a cult is not formed, because the Cult Leader is poisoned.",
+                    "The Cult Leader\u2019s living neighbors are the evil Poisoner and the good Fortune Teller. The Poisoner chooses the Cult Leader, and the Kazali kills the Fortune Teller. The Cult Leader\u2019s living neighbors are now the evil Poisoner and the evil Wizard. While the Cult Leader\u2019s living neighbors are both evil, the Cult Leader doesn\u2019t turn evil, because they cannot change alignment while poisoned."
+                ]
+            },
+            {
+                "how-to-run": [
+                    "Each night, turn the Cult Leader character token right side up (if both alive neighbors are good) or upside down (if both alive neighbors are evil) or either (if one alive neighbor is good and the other alive neighbor is evil). If the Cult Leader's alignment changes, wake the Cult Leader and give a thumbs up or a thumbs down, then put the Cult Leader to sleep. If the Cult Leader\u2019s alignment doesn\u2019t change, do not wake them.",
+                    "During the day, the Cult Leader may declare that they wish to use their ability. If so, enter the circle and run a vote in the same way that you would for an Exile. If all good players raise their hand, declare which team has won. If not all good players raise their hand, nothing happens."
+                ]
+            },
+            {
+                "boxes": []
+            },
+            {
+                "alignment": "Good"
+            },
+            {
+                "image_file_name": "Icon_cultleader.png"
+            },
+            {
+                "type": "Townsfolk"
+            }
+        ],
+        "fisherman": [
+            {
+                "name": "Fisherman"
+            },
+            {
+                "ability": "Once per game, during the day, visit the Storyteller for some advice to help your team win."
+            },
+            {
+                "quote": "This was my favourite part of the river... see how the sunlight makes a rainbow from the monastery to the market? This was the best place for big fish. And the older I get, the bigger they were."
+            },
+            {
+                "summary": "The Fisherman knows something that nobody else can know: what should be done."
+            },
+            {
+                "bullets": [
+                    "The Fisherman player chooses when to use their ability.",
+                    "When they visit the Storyteller, the Storyteller chooses what piece of advice to give the Fisherman.",
+                    "The Storyteller\u2019s pieces of advice are not necessarily \u201cfacts\u201d. They are strategy tips that the Storyteller believes will help the Fisherman win, if they are followed.",
+                    "If the Fisherman is drunk or poisoned, the Storyteller may give the Fisherman bad advice."
+                ]
+            },
+            {
+                "examples": [
+                    "The Fisherman visits the Storyteller and learns that \u201cYou shouldn\u2019t trust Ben\u201d. Ben is the poisoned Empath, and is unknowingly spreading false information.",
+                    "The Fisherman learns \u201cKeep the players claiming to be Outsiders alive\u201d. These players are secretly the Klutz and the Fearmonger. The Storyteller believes that keeping these players alive is more likely to end up with good executing the Demon.",
+                    "On the final day, the Fisherman learns to \u201ckill Lewis\u201d. The Fisherman is drunk, and Lewis is a Townsfolk. The Storyteller gave bad (\u201cfalse\u201d) advice to the Fisherman."
+                ]
+            },
+            {
+                "how-to-run": [
+                    "Once per game, the Fisherman will ask to use their ability. In private, give them once piece of advice to help them win. Then, put the No ability reminder by the Fisherman token."
+                ]
+            },
+            {
+                "boxes": [
+                    "It is best to give the Fisherman advice on what to DO, not just information about what IS. This makes the Fisherman more fun and unique.",
+                    "Eg. Saying \u201cYou should execute that player\u201d or \u201cKeep this player alive\u201d or \u201cfind out who is drunk\u201d or \u201cchange your thinking entirely\u201d or \u201cignore the Minions\u201d or \u201ctrust this player\u201d are much more interesting than saying \u201cthis player is evil\u201d or \u201cthe Demon is a No Dashii\u201d."
+                ]
+            },
+            {
+                "alignment": "Good"
+            },
+            {
+                "image_file_name": "Icon_fisherman.png"
+            },
+            {
+                "type": "Townsfolk"
+            }
+        ],
+        "lycanthrope": [
+            {
+                "name": "Lycanthrope"
+            },
+            {
+                "ability": "Each night*, choose an alive player. If good, they die & the Demon doesn\u2019t kill tonight. One good player registers as evil."
+            },
+            {
+                "quote": "Beneath the thin veneer of civilisation lies a howling madness."
+            },
+            {
+                "summary": "The Lycanthrope roams at night, killing the innocent, whilst the Demon cowers indoors."
+            },
+            {
+                "bullets": [
+                    "The Lycanthrope must choose an alive player each night. If the Lycanthrope chooses a dead player, the Storyteller shakes their head no and prompts the Lycanthrope to choose a different player.",
+                    "If the player that the Lycanthrope chooses is good, that player dies, and the Demon cannot kill tonight.",
+                    "If the player the Lycanthrope attacks is evil, that player does not die, and the Demon may still kill tonight.",
+                    "If the Lycanthrope attacks a good player but that good player doesn\u2019t die, the Demon may still kill tonight.",
+                    "While the Lycanthrope lives, one good player registers as evil. They cannot be killed by the Lycanthrope.",
+                    "This evil-registration does not effect win conditions. The good player that registers as evil still wins or loses with the good team."
+                ]
+            },
+            {
+                "examples": [
+                    "The Lycanthrope attacks the General. The General dies. Later that night, the Imp attacks the Amnesiac. The Amnesiac does not die, because the Imp cannot kill tonight.",
+                    "The Lycanthrope attacks the Farmer. The Farmer dies, and another good player becomes a Farmer. The Magician was poisoned by the Pukka last night but does not die tonight, because the Pukka cannot kill tonight.",
+                    "The Lycanthrope attacks the Godfather. The Godfather does not die, because the Godfather is evil. The Lycanthrope attacks the Zealot, who is registering as evil due to the Lycanthrope\u2019s ability. The Zealot does not die. The Demon attacks the Lycanthrope and the Lycanthrope dies."
+                ]
+            },
+            {
+                "how-to-run": [
+                    "During setup, mark one good player with the Lycanthrope\u2019s FAUX PAW reminder.",
+                    "Each night except the first, wake the Lycanthrope. They point at any player. Put the Lycanthrope to sleep. If the chosen player is good, that player dies\u2014mark them with the Lycanthrope\u2019s DEAD reminder. Later that night, wake the Demon, as normal, but the Demon cannot kill. If the chosen player is evil, nothing happens."
+                ]
+            },
+            {
+                "boxes": []
+            },
+            {
+                "alignment": "Good"
+            },
+            {
+                "image_file_name": "Icon_lycanthrope.png"
+            },
+            {
+                "type": "Townsfolk"
+            }
+        ],
+        "hermit": [
+            {
+                "name": "Hermit"
+            },
+            {
+                "ability": "You have all Outsider abilities. [-0 or -1 Outsiders]"
+            },
+            {
+                "quote": "In the lost and forgotten places of the earth, the soul\u2019s light beckons."
+            },
+            {
+                "summary": "The Hermit isn\u2019t really here."
+            },
+            {
+                "bullets": [
+                    "The Hermit has the abilities of all the other Outsiders on the Script, all at once. They do not have the abilities of Outsiders that are not on the script.",
+                    "If a custom script has more than 4 Outsiders, the Hermit has all these Outsider abilities.",
+                    "If one of the Outsider abilities continues after death, such as the Recluse\u2019s, the Hermit keeps that ability when they die, but does not keep their other Outsider abilities.",
+                    "A Hermit with the Drunk ability does not know that they are the Hermit, and their other Outsider abilities function as normal. A Hermit with the Recluse ability can register as a different character etc.",
+                    "If an Outsider has a jinx, that jinx applies to the Hermit too.",
+                    "The Hermit may remove the Hermit from play during setup, resulting in one less Outsider than normal. If this happens, the Hermit may still be a bluff given to the Demon."
+                ]
+            },
+            {
+                "examples": [
+                    "Marianna is the Hermit, and has the Klutz, Butler, and Recluse abilities. Each night, she chooses a player as her master due to the Butler ability. The Ravenkeeper dies and learns that she is the Lord of Typhon, due to the Recluse ability. Marianna is executed, and chooses a player due to the Klutz ability. She chooses the Wizard. Good loses.",
+                    "Lewis is the Hermit and has the Drunk, Mutant, and Sweetheart abilities. Thinking that he is the Exorcist, he chooses a player each night. Lewis says that he thinks he might be the Drunk, so the Storyteller executes him due to the Mutant ability. Due to the Sweetheart ability, the Alchemist is now drunk."
+                ]
+            },
+            {
+                "how-to-run": [
+                    "During setup, you may remove an Outsider token and add a Townsfolk token.",
+                    "Whenever appropriate, treat the Hermit as if they are the other Outsiders, including waking them at night, and using other Outsiders\u2019 reminder tokens. If the Hermit duplicates an in-play Outsider, use the Hermit\u2019s 1, 2 and 3 reminders instead."
+                ]
+            },
+            {
+                "boxes": [
+                    "If Outsider abilities clash, make up a rule to fix the clash, and tell the group. For example, for a Hermit-Butler-Zealot, you may declare that the Hermit must vote when their master votes."
+                ]
+            },
+            {
+                "alignment": "Good"
+            },
+            {
+                "image_file_name": "Icon_hermit.png"
+            },
+            {
+                "type": "Outsiders"
+            }
+        ],
+        "preacher": [
+            {
+                "name": "Preacher"
+            },
+            {
+                "ability": "Each night, choose a player: a Minion, if chosen, learns this. All chosen Minions have no ability."
+            },
+            {
+                "quote": "It is better to be rich and healthy than poor and sick."
+            },
+            {
+                "summary": "The Preacher removes Minion abilities."
+            },
+            {
+                "bullets": [
+                    "If the Preacher chooses a Minion, that Minion is woken to learn that they have been preached, and can no longer act while the Preacher is alive, sober, and healthy.",
+                    "If the Preacher chooses a player who is not a Minion, nothing happens.",
+                    "The Preacher may choose dead players.",
+                    "If the Preacher is drunk or poisoned at the time they choose a player, that player is not affected by the Preacher\u2019s ability.",
+                    "If the Preacher becomes drunk or poisoned, preached Minions regain their abilities until the Preacher is sober and healthy."
+                ]
+            },
+            {
+                "examples": [
+                    "The Preacher points to Alex, who is the Engineer. Nothing happens.",
+                    "The Preacher points to Lachlan, who is the Cerenovus. Lachlan wakes to learn that he has been preached, and is not woken to use his ability.",
+                    "Doug is the Preacher. He points to Marianna, who is the Pit-Hag. Marianna wakes to learn that she has been preached, and is not woken to use her ability. The following night, the Poisoner points to Doug. Because Doug is now poisoned, Marianna wakes to use her ability."
+                ]
+            },
+            {
+                "how-to-run": [
+                    "Each night, wake the Preacher. They point to a player. Put the Preacher to sleep. If the Preacher choose a Minion, mark that Minion with a NO ABILITY reminder, wake the Minion and show them the THIS CHARACTER SELECTED YOU info token then the Preacher token, then put them to sleep.",
+                    "All Minions marked NO ABILITY have no ability while the Preacher is alive."
+                ]
+            },
+            {
+                "boxes": []
+            },
+            {
+                "alignment": "Good"
+            },
+            {
+                "image_file_name": "Icon_preacher.png"
+            },
+            {
+                "type": "Townsfolk"
+            }
+        ],
+        "widow": [
+            {
+                "name": "Widow"
+            },
+            {
+                "ability": "On your 1st night, look at the Grimoire & choose a player: they are poisoned. 1 good player knows a Widow is in play."
+            },
+            {
+                "quote": "More wine? Ch\u00e2teau d\u2019Ergot \u201907 is a very special vintage. My yes, very special indeed."
+            },
+            {
+                "summary": "The Widow sees the Grimoire and poisons a character of their choice."
+            },
+            {
+                "bullets": [
+                    "The Widow acts on their first night only, poisoning one player.",
+                    "The player that the Widow poisons is poisoned until the Widow dies.",
+                    "On the same night that the Widow acts, one good player learns that the Widow is in play, but not which player is the Widow, and not which player is poisoned."
+                ]
+            },
+            {
+                "examples": [
+                    "The Widow sees the Grimoire and points to the Sailor. The Sailor is poisoned this game. The Sailor is sober, but dies when executed.",
+                    "On the third night, the Pit-Hag turns themselves into the Widow. That night, the good Scapegoat learns that a Widow is in play.",
+                    "The Empath is poisoned due to the Widow. The Widow becomes drunk due to the Innkeeper. The Empath is no longer poisoned. The Innkeeper dies. The Widow is now sober and the Empath is poisoned again."
+                ]
+            },
+            {
+                "how-to-run": [
+                    "While preparing the first night, mark a good player with the KNOW reminder.",
+                    "On the first night, wake the Widow and show them the Grimoire for as long as they need. The Widow points to a character token in the Grimoire. Mark them with a POISONED reminder. They are poisoned. Put the Widow to sleep.",
+                    "Wake the player marked KNOW. Show them the Widow character token. Put that good player to sleep."
+                ]
+            },
+            {
+                "boxes": []
+            },
+            {
+                "alignment": "Evil"
+            },
+            {
+                "image_file_name": "Icon_widow.png"
+            },
+            {
+                "type": "Minions"
+            }
+        ],
+        "organgrinder": [
+            {
+                "name": "Organ Grinder"
+            },
+            {
+                "ability": "All players keep their eyes closed when voting and the vote tally is secret. Each night, choose if you are drunk until dusk."
+            },
+            {
+                "quote": "Round and round the handles go. The more you dance the less you know."
+            },
+            {
+                "summary": "The Organ Grinder makes voting secret."
+            },
+            {
+                "bullets": [
+                    "When a player is nominated, players vote with eyes closed.",
+                    "The Storyteller does not count the votes out loud, and does not reveal how many players voted once voting is complete.",
+                    "The Storyteller doesn\u2019t reveal which player is \u201cabout to die\u201d.",
+                    "After nominations have closed, the Storyteller reveals which player is executed, as normal.",
+                    "Dead players may vote once if they have a vote token. Their vote token is removed at the end of the day instead of after the vote.",
+                    "If the Organ Grinder is drunk, the vote happens with eyes open, as normal. The Storyteller makes no comment as to whether the Organ Grinder is dead or alive. That night, the Organ Grinder chooses to become sober or drunk again."
+                ]
+            },
+            {
+                "examples": [
+                    "There are 8 players alive. The Noble is nominated. All players close eyes to vote and the Noble gets 5 votes. The Imp is nominated. All players close eyes to vote and the Imp gets 7 votes. The Pixie is nominated. All players close eyes to vote and the Pixie gets 4 votes. After nominations close, the Storyteller declares that Doug (the Imp) is executed and dies, and that good has won."
+                ]
+            },
+            {
+                "how-to-run": [
+                    "Each night, wake the Organ Grinder. The Organ Grinder either nods or shakes their head. If they nod their head, mark them with the DRUNK reminder. Put the Organ Grinder to sleep.",
+                    "When a player has been nominated and a vote is just about to begin, and the Organ Grinder is sober, ask all players to close their eyes. If they ask why, tell them that an Organ Grinder is in play. When counting votes, do so silently. Afterwards, do not reveal how many players voted, nor if the nominee is \u201cabout to die\u201d. If there were enough votes to execute the nominee, mark them with the ABOUT TO DIE reminder. Ask players to open their eyes, and if there are any more nominations.",
+                    "When nominations are closed, declare that the player marked ABOUT TO DIE, is executed.",
+                    "Each dusk, remove the DRUNK reminder."
+                ]
+            },
+            {
+                "boxes": [
+                    "Players are not allowed to use other methods to determine who is voting, such as touch or sound. It is a secret."
+                ]
+            },
+            {
+                "alignment": "Evil"
+            },
+            {
+                "image_file_name": "Icon_organgrinder.png"
+            },
+            {
+                "type": "Minions"
             }
         ]
     }

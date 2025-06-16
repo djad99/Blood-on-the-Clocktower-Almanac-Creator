@@ -377,11 +377,11 @@ def add_character():
     icon_file_path = "Icon_"+transform_character_name(name)+".png"
     type = input("Character type: ")
     character_after_sao = ""
-    if "y" not in input("Are they first in Steven Approved Order? "):
+    if "y" not in input("Are they first relative to their character type in Steven Approved Order? "):
         character_after_sao = input("What character do they go after in SAO: ")
 
     alignment = "Evil"
-    if type == "Townsfolk" or type == "Outsider":
+    if type == "Townsfolk" or type == "Outsiders":
         alignment = "Good"
 
     addition = [{

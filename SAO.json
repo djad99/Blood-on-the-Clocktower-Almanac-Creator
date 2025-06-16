@@ -1,6 +1,5 @@
 {
     "Townsfolk": [
-        "blargh",
         "steward",
         "knight",
         "chef",
@@ -21,7 +20,6 @@
         "preacher",
         "chambermaid",
         "villageidiot",
-        "foo",
         "snakecharmer",
         "mathematician",
         "king",
@@ -69,10 +67,10 @@
         "magician",
         "poppygrower",
         "pacifist",
-        "blargh",
         "atheist"
     ],
     "Outsiders": [
+        "hermit",
         "butler",
         "goon",
         "ogre",
