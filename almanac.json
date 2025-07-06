@@ -1523,7 +1523,7 @@
                 "ability": "Each night, if the dead equal or outnumber the living, you learn 1 alive character. The Demon knows you are the King."
             },
             {
-                "quote": "\u2191Betwixt the unknown strains of mortal strife\u2192\\nAnd morbid night, sweet\u2193 with mystery and woe\\n\u2190Lies unfettered joys of fate\u2019s long and colored life\\nWho\u2019s garden blooms with each painted Face to Show."
+                "quote": "\u2191Betwixt the unknown strains of mortal strife\u2192\nAnd morbid night, sweet\u2193 with mystery and woe\n\u2190Lies unfettered joys of fate\u2019s long and colored life\nWho\u2019s garden blooms with each painted Face to Show."
             },
             {
                 "summary": "The King learns which characters are still alive."
@@ -1616,7 +1616,7 @@
                 "ability": "The Demon thinks you are a Minion. Minions think you are a Demon."
             },
             {
-                "quote": "1... 2... Abra... 3... 4... Cadabra... *poof!*\\nAnd, as you can see, ladies and gentlemen, Captain Farnsworth\u2019s bag of gold has disappeared! Gone! Without a trace! Thank you, and goodnight!"
+                "quote": "1... 2... Abra... 3... 4... Cadabra... *poof!*\nAnd, as you can see, ladies and gentlemen, Captain Farnsworth\u2019s bag of gold has disappeared! Gone! Without a trace! Thank you, and goodnight!"
             },
             {
                 "summary": "The Magician confuses the evil players about who is evil and who isn\u2019t."
@@ -2981,7 +2981,7 @@
                 "ability": "Each night, choose a player (not yourself): tomorrow, you may only vote if they are voting too."
             },
             {
-                "quote": "Yes, sir...\\nNo, sir...\\nCertainly, sir.\\n"
+                "quote": "Yes, sir...\nNo, sir...\nCertainly, sir."
             },
             {
                 "summary": "The Butler may only vote when their Master (another player) votes."
@@ -2993,7 +2993,6 @@
                     "If the Master has their hand down, signaling that they are not voting, or if the Master lowers their hand before their vote is tallied, the Butler must lower their hand too.",
                     "It is not the Storyteller's responsibility to monitor the Butler. They're responsible for their own voting. Deliberately voting when they shouldn't is considered cheating.",
                     "Dead players may only raise their hand to vote if they have a vote token. If the Butler chooses a dead player as their Master, this still applies.",
-                    "The Butler is never forced to vote.",
                     "The Butler's vote may be tallied by the Storyteller before or after their Master's. Seating position is not important."
                 ]
             },
@@ -5751,9 +5750,7 @@
             },
             {
                 "how-to-run": [
-                    "During setup, write a phrase on a piece of paper, or on a phone.",
-                    "During the first night, wake the Demon. Show this phrase, then put them to sleep.",
-                    "Each time Demon says the secret phrase, put a DEAD reminder in the centre of the left side of the Grimoire, as a reminder to yourself to place it tonight.",
+                    "During setup, write a phrase on a piece of paper, or on a phone. During the first night, wake the Demon. Show this phrase, then put them to sleep. Each time Demon says the secret phrase, put a DEAD reminder in the centre of the left side of the Grimoire, as a reminder to yourself to place it tonight.",
                     "Each night, you may mark players with these DEAD reminders, and add a shroud to each marked player. These players die."
                 ]
             },
@@ -6009,7 +6006,7 @@
                 "image_file_name": "Icon_alhadikhia.png"
             },
             {
-                "type": "Demons"
+                "type": "Demon"
             }
         ],
         "balloonist": [
@@ -6077,7 +6074,7 @@
             {
                 "bullets": [
                     "If the Boomdandy is executed, the Storyteller kills other players, one at a time, until only three are left alive.",
-                    "The Demon will be one of the remaining three players (otherwise, the game would be over).",
+                    "The Demon will be one of the remaining three players.",
                     "Afterward, there is no further nomination or execution today. Instead, the Storyteller counts down from ten and all players point at the player they want to die. When the countdown ends, the Storyteller counts the number of fingers pointed at each player. If it is a tie, the day ends (and evil probably wins due to the Demon killing that night).",
                     "Even dead players who have no vote token may point.",
                     "Players may change who they are pointing at up until the countdown ends, at which point their decision is final.",
@@ -6107,7 +6104,7 @@
                 "image_file_name": "Icon_boomdandy.png"
             },
             {
-                "type": "Minions"
+                "type": "Minion"
             }
         ],
         "bountyhunter": [
@@ -6352,7 +6349,7 @@
                 "image_file_name": "Icon_hermit.png"
             },
             {
-                "type": "Outsiders"
+                "type": "Outsider"
             }
         ],
         "preacher": [
@@ -6447,7 +6444,7 @@
                 "image_file_name": "Icon_widow.png"
             },
             {
-                "type": "Minions"
+                "type": "Minion"
             }
         ],
         "organgrinder": [
@@ -6470,7 +6467,7 @@
                     "The Storyteller doesn\u2019t reveal which player is \u201cabout to die\u201d.",
                     "After nominations have closed, the Storyteller reveals which player is executed, as normal.",
                     "Dead players may vote once if they have a vote token. Their vote token is removed at the end of the day instead of after the vote.",
-                    "If the Organ Grinder is drunk, the vote happens with eyes open, as normal. The Storyteller makes no comment as to whether the Organ Grinder is dead or alive. That night, the Organ Grinder chooses to become sober or drunk again."
+                    "If the Organ Grinder is drunk, the vote happens with eyes open, as normal. The Storyteller makes no comment as to whether the Organ Grinder is dead or alive."
                 ]
             },
             {
@@ -6498,7 +6495,1700 @@
                 "image_file_name": "Icon_organgrinder.png"
             },
             {
-                "type": "Minions"
+                "type": "Minion"
+            }
+        ],
+        "stormcatcher": [
+            {
+                "name": "Storm Catcher"
+            },
+            {
+                "ability": "Name a good character. If in play, they can only die by execution, but evil players learn which player it is."
+            },
+            {
+                "quote": "At dawn, the temple\u2019s long shadow creeps to the fountain. At dusk, the obelisk blocks the red glare, cooling warm water under the archway. All lines converge here. A storm is coming, and this, this pebbled and lush and holy place between the apple trees, is the eye."
+            },
+            {
+                "summary": "Use the Storm Catcher to focus the game on a particular good character."
+            },
+            {
+                "bullets": [
+                    "If you want to construct a script based around the actions or information of one particular good character, if you want to have this character in every game (or at least have an evil player bluffing as this character), you can use the Storm Catcher. Your chosen character will play a big part in the game, will be the focus of a lot of group discussion, and will probably live until the final day.",
+                    "The Storyteller declares that one character can\u2019t die, unless by execution. This character may be in play, or not in play. If it is in play, this good player lives as long as the good players want them to, since evil players cannot kill them. If it is not in play, all evil players learn this, so any evil player can easily bluff as this character. (They don\u2019t have to, but they can.)"
+                ]
+            },
+            {
+                "examples": [
+                    "The Storyteller has built a script based on the General, so says that \u201cthe Storm Catcher favours the General\u201d. The General is in play. At night, the Imp and the Godfather both attack the General, who does not die. After 5 days of information and discussion, the town decides to execute the General. They die."
+                ]
+            },
+            {
+                "how-to-run": [
+                    "At the start of the game, declare that the Storm Catcher is in play. Add the Storm Catcher token to the Grimoire. Declare which good character is favoured by the Storm Catcher. If the favoured character is in play, mark them with the Storm Catcher\u2019s SAFE reminder.",
+                    "During the first night, wake each evil player in turn. If a good character is marked with the Storm Catcher\u2019s SAFE reminder, show the evil player the THIS PLAYER IS info token, the good character token, point to the good player, then put the evil player to sleep. If no one is marked with the Storm Catcher\u2019s SAFE reminder, show the evil player the THESE CHARACTERS ARE NOT IN PLAY info token and the good character token, then put the evil player to sleep.",
+                    "If the character marked with the Storm Catcher\u2019s SAFE reminder is executed, they die. If they would die by other means, they remain alive."
+                ]
+            },
+            {
+                "boxes": []
+            },
+            {
+                "alignment": "Storyteller"
+            },
+            {
+                "image_file_name": "Icon_stormcatcher.png"
+            },
+            {
+                "type": "Fabled"
+            }
+        ],
+        "scapegoat": [
+            {
+                "name": "Scapegoat"
+            },
+            {
+                "ability": "If a player of your alignment is executed, you might be executed instead."
+            },
+            {
+                "quote": "Good evening! Thank you for inviting me to the ball. I'm not from around here, but you sure seem like a friendly bunch, by golly. I'm sure we'll get along just dandy. What's all that rope for?"
+            },
+            {
+                "summary": "The Scapegoat is executed instead of an ally."
+            },
+            {
+                "bullets": [
+                    "If the Scapegoat is evil, they might die instead of an evil player dying. If the Scapegoat is good, they might die instead of a good player dying. When exactly this happens is up to the Storyteller. This can only happen due to an execution, not death by other means such as a Demon or Slayer.",
+                    "The Scapegoat being killed still counts as an execution, so no more nominations occur today.",
+                    "As always, players do not learn the alignment of the Scapegoat when they die."
+                ]
+            },
+            {
+                "examples": [
+                    "The Fortune Teller is about to be executed, but the Storyteller chooses to execute the good Scapegoat instead. The Fortune Teller lives and the Scapegoat dies. That night, the Undertaker learns that a Scapegoat was executed today.",
+                    "The Poisoner is about to be executed, but the Storyteller chooses to execute the evil Scapegoat instead. The Storyteller could have let the Poisoner die as normal, but chose not to.",
+                    "The Spy is about to be executed. The good Scapegoat dies instead."
+                ]
+            },
+            {
+                "how-to-run": [
+                    "If a player of the same alignment as the Scapegoat would be executed, you may choose that the Scapegoat is executed instead. The Scapegoat dies."
+                ]
+            },
+            {
+                "boxes": [
+                    "It is best to use the Scapegoat\u2019s ability before the final day, because a Scapegoat that remains alive on the final day will almost certainly be exiled. You should always use an evil Scapegoat\u2019s ability to prevent evil from losing the game."
+                ]
+            },
+            {
+                "alignment": "Both"
+            },
+            {
+                "image_file_name": "Icon_scapegoat.png"
+            },
+            {
+                "type": "Traveller"
+            }
+        ],
+        "gunslinger": [
+            {
+                "name": "Gunslinger"
+            },
+            {
+                "ability": "Each day, after the 1st vote has been tallied, you may choose a player that voted: they die."
+            },
+            {
+                "quote": "It's time someone took matters into their own hands. That someone... is me."
+            },
+            {
+                "summary": "The Gunslinger kills players who vote."
+            },
+            {
+                "bullets": [
+                    "Each day, after the first vote for execution has been tallied, the Gunslinger may publicly choose a player that just voted to die immediately. The Gunslinger does not have to kill a player\u2014it is entirely up to them. Whether they use their ability or not, the Gunslinger cannot kill any further players that day.",
+                    "It is the Gunslinger\u2019s responsibility to speak up and let the Storyteller know that they wish to use their ability.",
+                    "Since exiles are not affected by character abilities in any way, the Gunslinger cannot use their ability to kill a player that supports an exile."
+                ]
+            },
+            {
+                "examples": [
+                    "The Imp has been nominated. There are 10 players alive, and five votes for the Imp, so the Imp is about to die. The Gunslinger chooses a voting player to die. They die, and the nomination continues, with the Imp still about to die.",
+                    "The players exile the Thief. Then, the Butler is nominated for execution and gets one vote. This is the first nomination for execution, since the Thief\u2019s exile does not count. The Gunslinger chooses to kill the single voting player. Later that day, the Saint is nominated and six players vote. The Gunslinger cannot use their ability now because this is not the first vote for execution today."
+                ]
+            },
+            {
+                "how-to-run": [
+                    "Each day, immediately after the first vote for execution is tallied, the Gunslinger can declare that they wish to use their ability. If so, the Gunslinger points at any player who voted for this execution. The chosen player dies."
+                ]
+            },
+            {
+                "boxes": [
+                    "If the Gunslinger is a new player, you may wish to remind them that they can use their ability.",
+                    "When the Gunslinger wants to use their ability, you may need to ask all players who voted to raise their hand again, so the Gunslinger doesn\u2019t accidentally choose a player that didn\u2019t vote."
+                ]
+            },
+            {
+                "alignment": "Both"
+            },
+            {
+                "image_file_name": "Icon_gunslinger.png"
+            },
+            {
+                "type": "Traveller"
+            }
+        ],
+        "beggar": [
+            {
+                "name": "Beggar"
+            },
+            {
+                "ability": "You must use a vote token to vote. If a dead player gives you theirs, you learn their alignment. You are sober and healthy."
+            },
+            {
+                "quote": "Alms for the poor, good Sir? Spare a coin, Madam? Thank you. God bless! You're a right kind soul and no mistake! I'll have some swanky nosh tonight, I will!"
+            },
+            {
+                "summary": "The Beggar can not vote unless someone gives them a token to use, but they learn if the player that does so is good or evil."
+            },
+            {
+                "bullets": [
+                    "The Beggar cannot raise their hand to vote at all unless they have a vote token.",
+                    "When they do vote, they lose one vote token. If they have more than one, they may only use one at a time.",
+                    "Only a dead player may give their vote token to the Beggar, after which that dead player cannot vote. Each dead player decides for themself whether to give the Beggar their vote token. No one, including the Beggar, may move a player\u2019s vote token on their behalf.",
+                    "When a player gives their vote token to the Beggar, the Beggar learns whether that player is good or evil.",
+                    "The Beggar can still nominate freely, and can still vote for an exile freely, because exiles are not affected by abilities.",
+                    "If the Beggar dies, they gain one vote token to use while dead, just like any other character would. However, the Beggar loses all their previously acquired vote tokens.",
+                    "If the Beggar would become drunk or poisoned, they do not.",
+                    "The ability to donate vote tokens is unique to the Beggar ability. Players may not give their vote token to a player that is not the Beggar, whether or not a Beggar is in play."
+                ]
+            },
+            {
+                "examples": [
+                    "The Beggar cannot vote. On the fourth day, the Monk gives her vote token to the Beggar. The Beggar may now vote (once), and learns that the player is good. The Beggar is evil and tells the group that the Monk player is evil.",
+                    "The good Beggar has three vote tokens. The Recluse gives the Beggar their vote token, and the Beggar learns that they are evil. That day, the Beggar dies, and loses all their vote tokens except for one."
+                ]
+            },
+            {
+                "how-to-run": [
+                    "The Beggar cannot vote unless they have a vote token. They lose one vote token each time they vote.",
+                    "During the day, a dead player can declare that they give their vote token to the Beggar. Transfer the vote token to the Beggar and privately tell the Beggar the alignment of that player."
+                ]
+            },
+            {
+                "boxes": []
+            },
+            {
+                "alignment": "Both"
+            },
+            {
+                "image_file_name": "Icon_beggar.png"
+            },
+            {
+                "type": "Traveller"
+            }
+        ],
+        "bureaucrat": [
+            {
+                "name": "Bureaucrat"
+            },
+            {
+                "ability": "Each night, choose a player (not yourself): their vote counts as 3 votes tomorrow."
+            },
+            {
+                "quote": "Sign here please. And here. And here. Aaaaaaaaand here. This should all be sorted and tallied by the end of the day, assuming everyone's signatures are legible. We haven't had a mix-up in the paperwork for ages. Yesterday noon, if memory serves..."
+            },
+            {
+                "summary": "The Bureaucrat gives extra votes to a player of their choice."
+            },
+            {
+                "bullets": [
+                    "When a player chosen by the Bureaucrat votes, that vote counts as three votes. This happens every time that player votes that day.",
+                    "The player with the triple vote loses it immediately if the Bureaucrat dies, including if the Bureaucrat is exiled, because the Bureaucrat loses their ability.",
+                    "Exiles are never affected by abilities, so the player with the triple vote can only support exiles once, not three times.",
+                    "Since the Storyteller counts the number of votes out loud as they move their hand around the circle, all players will know which player the Bureaucrat chose."
+                ]
+            },
+            {
+                "examples": [
+                    "The Bureaucrat chooses Evin. The next day, when the first vote is being tallied, the Storyteller counts \"1... 2... 3... 4-5-6... 7.\u201d The nominated player now has seven votes for their execution, and the nomination process continues.",
+                    "The Bureaucrat chooses Filip. The next day, Filip has a triple vote, which he uses during four nominations.",
+                    "The Bureaucrat chooses Douglas, who is dead. The next day, Douglas uses his vote token to vote, and his vote counts as triple."
+                ]
+            },
+            {
+                "how-to-run": [
+                    "Each night, wake the Bureaucrat. They point at any player. Mark the chosen player with the Bureaucrat\u2019s 3 VOTES reminder. Put the Bureaucrat to sleep.",
+                    "Each time you tally the vote of a player marked 3 VOTES, count it as three votes instead of one. (Count this out loud, as normal.)"
+                ]
+            },
+            {
+                "boxes": []
+            },
+            {
+                "alignment": "Both"
+            },
+            {
+                "image_file_name": "Icon_bureaucrat.png"
+            },
+            {
+                "type": "Traveller"
+            }
+        ],
+        "thief": [
+            {
+                "name": "Thief"
+            },
+            {
+                "ability": "Each night, choose a player (not yourself): their vote counts negatively tomorrow."
+            },
+            {
+                "quote": "I aint done nuffink. I weren't even in dat alley last night! It weren't me what stole Mayor Bruno's briefcase wiv all dem fancy dockoments innit. Besides, it was too 'eavy to carry far."
+            },
+            {
+                "summary": "The Thief steals votes from a player, making their vote count negatively."
+            },
+            {
+                "bullets": [
+                    "When a player chosen by the Thief votes, the vote tally goes down by one instead of up by one. This happens every time that player votes that day.",
+                    "The player with the negative vote changes back to having a positive vote immediately if the Thief dies, including if the Thief is exiled, because the Thief loses their ability.",
+                    "Exiles are never affected by abilities, so the player with the negative vote can support exiles unaffected by the Thief\u2019s ability.",
+                    "Since the Storyteller counts the number of votes out loud as they move their hand around the circle, all players will know which player the Thief chose."
+                ]
+            },
+            {
+                "examples": [
+                    "The Thief chooses Marianna. The next day, while tallying the first vote, the Storyteller counts \"1... 2... 3... 2... 3... 4... 5.\u201d The nominated player now has five votes for their execution, and the nomination process continues.",
+                    "The Thief chooses Abdallah. Abdallah votes for an execution, and instead of the tally being six, it is four. Since 10 players are alive, the nominee is not executed today. Later that day, the players are voting to exile the Gunslinger. Abdallah votes to exile, and his vote counts as positive."
+                ]
+            },
+            {
+                "how-to-run": [
+                    "Each night, wake the Thief. They point at any player. Mark the chosen player with the Thief\u2019s NEGATIVE VOTE reminder. Put the Thief to sleep.",
+                    "Each time you tally the vote of a player marked NEGATIVE VOTE, count it as subtracting one vote instead of adding one vote. (Count this out loud, as normal.)"
+                ]
+            },
+            {
+                "boxes": []
+            },
+            {
+                "alignment": "Both"
+            },
+            {
+                "image_file_name": "Icon_thief.png"
+            },
+            {
+                "type": "Traveller"
+            }
+        ],
+        "butcher": [
+            {
+                "name": "Butcher"
+            },
+            {
+                "ability": "Each day, after the 1st execution, you may nominate again."
+            },
+            {
+                "quote": "It tastes like chicken. More please."
+            },
+            {
+                "summary": "The Butcher allows a second execution to occur per day."
+            },
+            {
+                "bullets": [
+                    "After the first executed player has died, the Butcher may nominate a second player for execution. The Butcher may nominate a player that has already been nominated today, and the Butcher may make a nomination even if the Butcher already made a nomination earlier today.",
+                    "If a player is executed, even if they do not die, then the Butcher may use their ability. The players may choose to vote or not to vote, so there is no guarantee that this extra nomination will cause an execution\u2014it still needs to get enough votes\u2014but this second nomination does not need to exceed the vote tally of the previous nominations.",
+                    "If no execution occurs today, then the Butcher may not use their ability at all today."
+                ]
+            },
+            {
+                "examples": [
+                    "The Witch is executed and dies. The Butcher then nominates the Sage, who gets enough votes to be executed. The Sage dies too.",
+                    "The Bone Collector is exiled, and then the Harlot is exiled. There are no executions today. The Butcher does not get to nominate again, because exiles are not executions.",
+                    "The Butcher nominates the Town Crier, but the Town Crier is not executed. The Mathematician gets more votes and is executed today. The game continues, and the Butcher nominates the Town Crier again. This time, enough hands are raised, and the Town Crier is executed."
+                ]
+            },
+            {
+                "how-to-run": [
+                    "Each day, immediately after a player is executed, the Butcher may nominate a player for execution. (Remind them if needed.) To succeed, this nomination must tally votes of at least half the alive players, as normal, but does not have to exceed the votes of the execution that prompted the Butcher ability. If this second execution succeeds, it does not allow the Butcher to nominate a third player."
+                ]
+            },
+            {
+                "boxes": []
+            },
+            {
+                "alignment": "Both"
+            },
+            {
+                "image_file_name": "Icon_butcher.png"
+            },
+            {
+                "type": "Traveller"
+            }
+        ],
+        "bonecollector": [
+            {
+                "name": "Bone Collector"
+            },
+            {
+                "ability": "Once per game, at night*, choose a dead player: they regain their ability until dusk."
+            },
+            {
+                "quote": "I collect many things. Hair. Teeth. Clothes. Fragments of poems. The dreams of lost lovers. My secret arts are not for you to know but my fee is a mere pittance. Bring me the blood of a noblewoman who died of heartbreak under a full moon, and you shall have your answers."
+            },
+            {
+                "summary": "The Bone Collector temporarily gives dead players their ability back."
+            },
+            {
+                "bullets": [
+                    "The Bone Collector must choose a dead player. The chosen player remains dead, but they get their ability to use. If their ability was a \u201cyou start knowing\u201d or a \u201conce per game\u201d ability\u2014such as the Virgin, Slayer, Clockmaker, Seamstress, or Juggler\u2014they may use it again, even if it was already used, until dusk falls.",
+                    "When the Bone Collector chooses a player, that player does not learn they were selected by the Bone Collector, although they find out soon enough when they are woken to use their ability.",
+                    "If the Bone Collector dies, that player no longer has the ability they regained due to the Bone Collector."
+                ]
+            },
+            {
+                "examples": [
+                    "The Bone Collector gives the dead Flowergirl her ability back. That night, the Flowergirl learns that the Demon did indeed vote today. The following night, the Flowergirl once again has no ability.",
+                    "The Bone Collector chooses the dead Witch. The Witch wakes and curses the Clockmaker. The Clockmaker nominates the following day, and dies.",
+                    "At night, the Bone Collector chooses the dead Butcher. The following day, after an execution has occurred, the Storyteller prompts the Butcher to nominate again.",
+                    "During the day, the dead Juggler guesses five players\u2019 characters. That night, the Bone Collector gives the Juggler their ability back. The Juggler learns a \"3\"."
+                ]
+            },
+            {
+                "how-to-run": [
+                    "Each night except the first, wake the Bone Collector. They either shake their head no or point at any dead player. Put the Bone Collector to sleep.",
+                    "If they pointed at a dead player, the chosen player regains their ability\u2014mark their character token with the Bone Collector\u2019s HAS ABILITY reminder. (They may need to be woken tonight to use their ability.) The Bone Collector loses their ability\u2014mark them with their NO ABILITY reminder. The next dusk, the chosen player loses their ability\u2014remove the HAS ABILITY reminder."
+                ]
+            },
+            {
+                "boxes": []
+            },
+            {
+                "alignment": "Both"
+            },
+            {
+                "image_file_name": "Icon_bonecollector.png"
+            },
+            {
+                "type": "Traveller"
+            }
+        ],
+        "harlot": [
+            {
+                "name": "Harlot"
+            },
+            {
+                "ability": "Each night*, choose a living player: if they agree, you learn their character, but you both might die."
+            },
+            {
+                "quote": "Enchant\u00e9, Sailor. You look like you need someone to really listen to your troubles. I'm a good listener. Very, very good."
+            },
+            {
+                "summary": "The Harlot learns the character of whoever agrees to reveal it, but at great risk for them both."
+            },
+            {
+                "bullets": [
+                    "Each night, the Harlot chooses a player. That player has a decision to make: do they reveal their character to the Harlot? If they do, the Storyteller may decide that both this player and the Harlot die tonight.",
+                    "The Harlot only learns the character of the chosen player, not that player\u2019s alignment.",
+                    "The Harlot may discuss during the day which character they would like to pick at night, and other players may offer to be picked, but they may go back on their word and choose differently when night comes."
+                ]
+            },
+            {
+                "examples": [
+                    "The good Harlot wakes and chooses the Philosopher, who chooses to reveal. The next night, the Harlot chooses the No Dashii, who chooses not to reveal. The next night, the Harlot chooses the Mutant, who chooses to reveal. The Storyteller decides that the Harlot and Mutant die tonight.",
+                    "The evil Harlot chooses the Sage, who reveals. The next day, the Harlot says the Sage is actually the Witch."
+                ]
+            },
+            {
+                "how-to-run": [
+                    "Each night, wake the Harlot. The Harlot points at any player. Put the Harlot to sleep. Wake the chosen player, show them the THIS CHARACTER SELECTED YOU' info token, then the Harlot token. That player either nods their head yes or shakes their head no. Put that player to sleep.",
+                    "If they shook their head no, then nothing happens. Continue with the night phase.",
+                    "If they nodded their head yes, wake the Harlot and show them the chosen player\u2019s character token. Put the Harlot to sleep. You may decide that both players die\u2014mark them with DEAD reminders."
+                ]
+            },
+            {
+                "boxes": [
+                    "When choosing whether to kill players, do what you feel is the most interesting and balanced. If the Demon reveals to the Harlot, you should not end the game by killing them."
+                ]
+            },
+            {
+                "alignment": "Both"
+            },
+            {
+                "image_file_name": "Icon_harlot.png"
+            },
+            {
+                "type": "Traveller"
+            }
+        ],
+        "barista": [
+            {
+                "name": "Barista"
+            },
+            {
+                "ability": "Each night, until dusk, 1) a player becomes sober, healthy & gets true info, or 2) their ability works twice. They learn which."
+            },
+            {
+                "quote": "A cup of coffee with no cream, Monsieur? I\u2019m terribly sorry, but we\u2019re fresh out of cream \u2014 how about with no milk?"
+            },
+            {
+                "summary": "The Barista either makes people sober & healthy, or allows them to act twice as much as normal."
+            },
+            {
+                "bullets": [
+                    "The Storyteller chooses which player the Barista affects each night, and which one of the two Barista abilities is in effect. The Barista does not know who or what the Storyteller chooses, but the affected player does.",
+                    "If the affected player is acting twice, then they do so at the normal time. If they would normally wake at night, they act, go to sleep, then wake to act again. If they have already used a \u201conce per game\u201d ability, they may use that ability again. If they have a \u201conce per game\u201d ability but have not used it yet, they may use it twice before dusk.",
+                    "If the Barista makes a player sober and healthy, their drunkenness and poisoning, if any, is removed, and they may not become drunk or poisoned until dusk. This player must get true information, even if a Vortox is in play."
+                ]
+            },
+            {
+                "examples": [
+                    "The Klutz acts twice. They die and must choose two players. If either is evil, evil wins. The next night, the Barista makes the Witch act twice. Two players are cursed."
+                ]
+            },
+            {
+                "how-to-run": [
+                    "Each night, remove previous reminders then put the Barista\u2019s SOBER AND HEALTHY reminder or their ACTS TWICE reminder by any character token. Wake that character\u2019s player and show them the THIS CHARACTER SELECTED YOU info token, the Barista token, then one finger (to show they are sober and healthy) or two fingers (to show they act twice). Put that player to sleep.",
+                    "A player marked SOBER AND HEALTHY is sober and healthy (even if they\u2019re also marked DRUNK or POISONED) and always gets true information (even if an ability would make them drunk or poisoned).",
+                    "A player marked ACTS TWICE acts twice at the appropriate time. (If the ability is optional, they may use it twice. If it is mandatory, they must use it twice.) Use the Barista\u2019s ? reminders if needed, to substitute for the character\u2019s own reminders."
+                ]
+            },
+            {
+                "boxes": [
+                    "Some characters are better off knowing they are sober and healthy, as they gain no benefit from acting twice, such as the Flowergirl, Town Crier, or Oracle.",
+                    "The Barista ensures players get true information even if an ability causes false information, such as a Fortune Teller, Spy, or Recluse."
+                ]
+            },
+            {
+                "alignment": "Both"
+            },
+            {
+                "image_file_name": "Icon_barista.png"
+            },
+            {
+                "type": "Traveller"
+            }
+        ],
+        "deviant": [
+            {
+                "name": "Deviant"
+            },
+            {
+                "ability": "If you were funny today, you cannot die by exile."
+            },
+            {
+                "quote": "Twas the lady's quip, forsooth."
+            },
+            {
+                "summary": "The Deviant can avoid being Exiled - as long as the Deviant player has been amusing today."
+            },
+            {
+                "bullets": [
+                    "The Deviant can amuse the group in any way they choose. Generally, verbal means such as jokes, funny stories, or witty remarks will suffice.",
+                    "The Storyteller is the judge of whether the Deviant was funny or not."
+                ]
+            },
+            {
+                "examples": [
+                    "The evil Deviant cracks a few jokes, and gets a few laughs, but the players nevertheless decide to exile them. Even though there are enough votes, the Storyteller decides to keep the Deviant alive.",
+                    "On the third day, the Deviant was slightly funny, and cannot be exiled. On the fourth day, the Deviant was not very funny, and is successfully exiled."
+                ]
+            },
+            {
+                "how-to-run": [
+                    "If the Deviant would be exiled, you may declare that the Deviant remains alive."
+                ]
+            },
+            {
+                "boxes": [
+                    "It is best to be forgiving and treat even a slightly funny Deviant as funny. It can be tough to be funny when one is expected to be, after all.",
+                    "If the player would prefer, you may determine different criteria for whether the Deviant is exiled. If being \u201cfunny\u201d is difficult, you may reward the Deviant who \u201ccreates a positive mood\u201d or \u201cis helpful to others\u201d instead. The Deviant is not a serious character, and it is meant to encourage laughter, lightheartedness, and fun, so adjust the Deviant rules to your players\u2019 needs and talents."
+                ]
+            },
+            {
+                "alignment": "Both"
+            },
+            {
+                "image_file_name": "Icon_deviant.png"
+            },
+            {
+                "type": "Traveller"
+            }
+        ],
+        "apprentice": [
+            {
+                "name": "Apprentice"
+            },
+            {
+                "ability": "On your 1st night, you gain a Townsfolk ability (if good) or a Minion ability (if evil)."
+            },
+            {
+                "quote": "For years have I traveled, studying the ways of The Craft. Which craft, you ask? Simply that of the simple folk. Nothing to worry about. Not yet."
+            },
+            {
+                "summary": "The Apprentice has either a Townsfolk or a Minion ability."
+            },
+            {
+                "bullets": [
+                    "A good Apprentice gains a Townsfolk ability. An evil Apprentice gains a Minion ability. They have this ability until they die.",
+                    "The Apprentice learns their ability on their first night, and they may act that night if the character whose ability they gain would do so.",
+                    "Only abilities listed on the character sheet may be gained.",
+                    "If the Apprentice gains an ability that normally only functions on the first night of the game, such as the Grandmother\u2019s, it functions on the Apprentice\u2019s first night instead.",
+                    "The Apprentice does not literally become the character whose ability they gain. They are the Apprentice, a Traveller, so they may be exiled but not executed, and they do not count toward the number of alive players to see if evil wins due to just two players being alive. Also, other characters\u2019 abilities that detect characters would detect the Apprentice as the Apprentice."
+                ]
+            },
+            {
+                "examples": [
+                    "The evil Apprentice gains the Assassin ability. That night, they kill the Fool.",
+                    "The good Apprentice gains the Chambermaid ability. From now on, they learn who wakes at night. Later, the Gambler guesses that the Apprentice is the Tea Lady. The Gambler dies, because the Apprentice is not the Tea Lady, but the Apprentice."
+                ]
+            },
+            {
+                "how-to-run": [
+                    "During the first night after the Apprentice enters play, wake the Apprentice. Show them the YOU ARE info token, then a Townsfolk or Minion token. In the Grimoire, replace the Apprentice token with that character token, and mark them with the IS THE APPRENTICE reminder. That player remains the Apprentice but gains the ability of their character token."
+                ]
+            },
+            {
+                "boxes": [
+                    "You will almost certainly want to choose a not-in-play character ability, because there is only one of each character token and the Apprentice needs to use that token."
+                ]
+            },
+            {
+                "alignment": "Both"
+            },
+            {
+                "image_file_name": "Icon_apprentice.png"
+            },
+            {
+                "type": "Traveller"
+            }
+        ],
+        "matron": [
+            {
+                "name": "Matron"
+            },
+            {
+                "ability": "Each day, you may choose up to 3 sets of 2 players to swap seats. Players may not leave their seats to talk in private."
+            },
+            {
+                "quote": "Miss Featherbottom, be quiet. Master Rutherford, a teacup needs just the four fingers, please. I know you are a father of nine, but age, or lack there-of as the case may be, is never an excuse for poor manners."
+            },
+            {
+                "summary": "The Matron chooses which players sit where."
+            },
+            {
+                "bullets": [
+                    "The Matron may swap two players\u2019 seating positions, up to three times per day. The new seating order is permanent, unless changed again by the Matron.",
+                    "The same player may be moved multiple times.",
+                    "Some players may find moving difficult due to a physical disability or impediment. In these cases, they are immune to the Matron\u2019s ability and can stay put.",
+                    "With the Matron in play, players may not talk privately except with their immediate neighbors while sitting down. Players may not leave their seat to whisper something to any player, and may not even talk about the game to each other when going to the bathroom, and so on. Players should self-police this.",
+                    "If the Matron swaps just one or two sets of players, they may not swap another set of players later that day."
+                ]
+            },
+            {
+                "examples": [
+                    "The evil Matron rearranges the seating order so that she is sitting next to the Tea Lady. This way, the two of them can whisper to each other, and the Tea Lady's ability does not work.",
+                    "The good Matron swaps the seating position of the player they think is the Demon, so that player is far away from the player they think is the Minion. They may not whisper to each other now."
+                ]
+            },
+            {
+                "how-to-run": [
+                    "Players who leave their seats cannot talk about the game to other players until they return.",
+                    "Each day, the Matron may choose two players and declare that they swap seating positions. Ask them to do so. Swap their character tokens and any reminders they have in the Grimoire. The Matron may do this up to three times, but all swaps happen one after the other."
+                ]
+            },
+            {
+                "boxes": []
+            },
+            {
+                "alignment": "Both"
+            },
+            {
+                "image_file_name": "Icon_matron.png"
+            },
+            {
+                "type": "Traveller"
+            }
+        ],
+        "voudon": [
+            {
+                "name": "Voudon"
+            },
+            {
+                "ability": "Only you & the dead can vote. They don't need a vote token to do so. A 50% majority isn't required."
+            },
+            {
+                "quote": "Bien venu. Sit down. Breathe deep. Enter the land of the dead. See with their eyes. Speak with their voice. Yon sel lang se janm ase."
+            },
+            {
+                "summary": "The Voudon gives the voting power to the dead instead of the living."
+            },
+            {
+                "bullets": [
+                    "The dead and the Voudon may vote as many times per day as they wish. They do not need a vote token to vote, and do not lose their vote token when they do so. Alive players cannot vote. It is not the case that they may put their hand up but the votes don\u2019t count\u2014their hands must stay down during voting.",
+                    "The number of votes required to execute a player is no longer half or more of the alive players. The player with the most votes is executed each day, but even a single vote is enough to execute a player if no other player gets more votes.",
+                    "The Voudon does not alter who can make nominations. As normal, alive players may make nominations, and dead players may not. Since Travellers are exiled, not executed, all players, alive or dead, may support exiling the Voudon or other Travellers.",
+                    "If a player is about to die and then the Voudon is exiled, that player is still about to die and nominations continue, but alive players vote as normal. If a later nomination gets more votes and it tallies to half or more of the alive players, this new player is about to die instead."
+                ]
+            },
+            {
+                "examples": [
+                    "There are 12 players alive, and three dead. An alive Innkeeper nominates the Moonchild. Of the four players that can vote, three do. All other nominations today get fewer than three votes, so the Moonchild dies.",
+                    "It is the first day. Only the Voudon can vote, but does not. The players call for the Voudon to be exiled. Five players support the exile, and seven oppose. The Voudon lives.",
+                    "Two dead players vote for the Mastermind to be executed. Then, the Voudon, the dead Fool and the apparently dead Zombuul all vote for the Gossip. The Gossip is executed."
+                ]
+            },
+            {
+                "how-to-run": [
+                    "During votes for execution, only dead players and the Voudon may raise their hand to vote. The dead may vote even if they have no vote token, and voting does not use a vote token. If a nominee gets at least one vote, they are about to die by execution until a different player gets more votes."
+                ]
+            },
+            {
+                "boxes": []
+            },
+            {
+                "alignment": "Both"
+            },
+            {
+                "image_file_name": "Icon_voudon.png"
+            },
+            {
+                "type": "Traveller"
+            }
+        ],
+        "judge": [
+            {
+                "name": "Judge"
+            },
+            {
+                "ability": "Once per game, if another player nominated, you may choose to force the current execution to pass or fail."
+            },
+            {
+                "quote": "I find the defendant guilty of the crimes of murder, fraud, arson, larceny, impersonating an officer of the law, practicing medicine without a license, slander, regicide, and littering."
+            },
+            {
+                "summary": "The Judge can determine if an execution succeeds or not, regardless of who voted."
+            },
+            {
+                "bullets": [
+                    "The Judge can decide to pardon a player that they think is innocent, to condemn a player that they think is guilty, or vice versa.",
+                    "If the nominee is pardoned, then they are not executed today, and none of the votes for them count. If the nominee is condemned, then they are executed immediately, regardless of how many votes they received, and regardless of whether another player was about to die by execution. Then the day ends, because there can normally only be one execution per day.",
+                    "The Judge may use their ability during or after the votes are tallied. However, once a new player has been nominated, then the Judge may only use their ability on this new nominee. The Judge may only use their ability once, and only if a different player made a nomination."
+                ]
+            },
+            {
+                "examples": [
+                    "The Slayer was about to die, but the Po is nominated and every alive player votes, so now the Po is about to die. The evil Judge decides that the Po\u2019s execution fails. So, as before, the Slayer is about to die, and the nomination process continues.",
+                    "The good Judge nominates the Professor. Nobody votes, but the Judge may not use their ability. A Traveller's exile is voted on. Once again, the Judge may not use their ability. The Grandmother nominates the Goon. Even though the Goon got only one vote, the Judge decides that the Goon is executed immediately."
+                ]
+            },
+            {
+                "how-to-run": [
+                    "At any time during a nomination for execution\u2014from the moment that the nomination is declared to the moment before a new player is nominated for execution\u2014the Judge can declare that this execution succeeds or fails. If the Judge declares that it succeeds, the nominated player is executed and you may proceed to the night phase (as there may only be one execution per day). If the Judge declares that it fails, the nominated player is no longer about to die and they are treated as receiving zero votes for execution, and the nomination process continues. The Judge loses their ability\u2014put the Judge\u2019s NO ABILITY reminder token by the Judge token."
+                ]
+            },
+            {
+                "boxes": []
+            },
+            {
+                "alignment": "Both"
+            },
+            {
+                "image_file_name": "Icon_judge.png"
+            },
+            {
+                "type": "Traveller"
+            }
+        ],
+        "bishop": [
+            {
+                "name": "Bishop"
+            },
+            {
+                "ability": "Only the Storyteller can nominate. At least 1 opposing player must be nominated each day."
+            },
+            {
+                "quote": "In nomine Patris, et Filii, et Spiritus Sancti\u2026 Nos mos Dei. Deus vult de nobis."
+            },
+            {
+                "summary": "The Bishop prevents players from nominating at all. Instead, the Storyteller does all nominating."
+            },
+            {
+                "bullets": [
+                    "The Storyteller makes nominations during the nomination process instead of the players, and the Storyteller may nominate as few or as many players as they wish. To make things fair, they must nominate at least one player whose alignment is opposite the Bishop\u2019s alignment each day.",
+                    "The Bishop does not alter who can and cannot vote. Each player may do so normally.",
+                    "Since Travellers are exiled, not executed, any player may call for the Bishop or another Traveller to be exiled."
+                ]
+            },
+            {
+                "examples": [
+                    "The Bishop is good. On the first day, the Storyteller nominates the Demon, a Minion, and two Townsfolk. On the second day, the Storyteller nominates a Minion and Outsider.",
+                    "The Bishop is evil. The Storyteller has nominated nobody. However, the Storyteller must nominate at least one good player today, so they choose the Minstrel. The next day, the Storyteller nominates four good players and the Demon. The Bishop is exiled that day, and now the players may continue the nomination process normally."
+                ]
+            },
+            {
+                "how-to-run": [
+                    "Each dawn, mark the good Bishop with their NOMINATE EVIL reminder, or mark the evil Bishop with their NOMINATE GOOD reminder.",
+                    "During the nomination process for execution, the players cannot make nominations, but you can. (Voting happens as normal.) When you nominate a player whose alignment is opposite the alignment of the Bishop, remove the Bishop\u2019s reminder. You cannot end the nomination process if the Bishop is marked with their reminder."
+                ]
+            },
+            {
+                "boxes": [
+                    "Usually, you\u2019ll want to nominate about three to five players each day, with at least one of them being evil. You do not have to nominate the Demon each day, but you should nominate all alive players on the final day. Which players you nominate is up to you, but it\u2019s best to nominate more evil players if the Bishop is good, and to nominate fewer evil players if the Bishop is evil."
+                ]
+            },
+            {
+                "alignment": "Both"
+            },
+            {
+                "image_file_name": "Icon_bishop.png"
+            },
+            {
+                "type": "Traveller"
+            }
+        ],
+        "gangster": [
+            {
+                "name": "Gangster"
+            },
+            {
+                "ability": "Once per day, you may choose to kill an alive neighbor, if your other alive neighbor agrees."
+            },
+            {
+                "quote": "I like your shoes. It would be such a shame if you had a little accident, and they got ruined. Now that you mention it, I like your cufflinks too."
+            },
+            {
+                "summary": "The Gangster encourages their neighbors to kill each other."
+            },
+            {
+                "bullets": [
+                    "The Gangster may kill one of their two living neighbors. Their dead neighbors are skipped over, and do not count.",
+                    "To use their ability, the Gangster and one of their living neighbors must agree to kill the other living neighbor. The Storyteller must hear and confirm this agreement. The Gangster cannot kill without the Storyteller present.",
+                    "Each day, the Gangster may say whatever they want, and offer any encouraging words they want to either player. Once an agreement has been reached, then the Gangster may not use their ability again today, even if that player didn\u2019t die due to an ability protecting them.",
+                    "The Gangster\u2019s two living neighbors are always one clockwise, and one counter-clockwise.",
+                    "If both living neighbors want to kill the other, the Gangster decides who dies."
+                ]
+            },
+            {
+                "examples": [
+                    "The Gangster neighbors the Saint and the Baron. The Gangster asks the Baron if they want to kill the Saint. The Baron agrees and the Saint dies.",
+                    "The Gangster neighbours the Chambermaid and the Poppy Grower, but they are both dead. The Gangster\u2019s two living neighbours are the Engineer and the Po. The Gangster talks with the Po and offers to kill the Engineer. The Po declines. The Gangster talks with the Engineer and the Engineer asks the Gangster to kill the Po. The Gangster agrees, and the Po dies. Good wins.",
+                    "The Gangster neighbours the Fool and the Sage. The Sage and the Gangster kill the Fool but the Fool doesn\u2019t die, because of the Fool's ability. The Gangster may not use their ability again today."
+                ]
+            },
+            {
+                "how-to-run": [
+                    "Once per day, the Gangster can declare that they wish to use their ability. If so, ask if an alive neighbor agrees. If an alive neighbor agrees, the other alive neighbor dies. If both alive neighbors agree, the Gangster chooses which alive neighbor dies. If neither alive neighbor agrees, the Gangster may not use their ability today."
+                ]
+            },
+            {
+                "boxes": []
+            },
+            {
+                "alignment": "Both"
+            },
+            {
+                "image_file_name": "Icon_gangster.png"
+            },
+            {
+                "type": "Traveller"
+            }
+        ],
+        "gnome": [
+            {
+                "name": "Gnome"
+            },
+            {
+                "ability": "All players start knowing a player of your alignment. You may choose to kill anyone who nominates them."
+            },
+            {
+                "quote": "Four the score or seven beers, no shows are goes for me and my. A prank to crack the cranks and planks o' the floor foundation length, so incontravertabubbilly mini. The large essays down streams of joyce, no greater than is scene, not inherdt, Ha-urrumph.o."
+            },
+            {
+                "summary": "The Gnome protects one player on their team."
+            },
+            {
+                "bullets": [
+                    "The Gnome starts as the same alignment as one other player - their \"amigo\". The Storyteller publicly announces which player this is.",
+                    "When their amigo is nominated, it is the Gnome's responsibility to speak up. The Storyteller may not prompt them to use their ability.",
+                    "If their amigo changes alignment, the Gnome's alignment does not change.",
+                    "The Gnome may use their ability any number of times over the course of the game, including zero. Their amigo may still only be nominated once per day.",
+                    "When the Gnome uses their ability, and the Storyteller confirms it, the nominator dies immediately. Voting for execution still occurs.",
+                    "Regardless of what the group wants, it is always the individual player's decision whether they wish to nominate or not, and always the Gnome player's decision on whether they wish to use their ability or not. If the Storyteller feels that a player is being pressured into nominating or using their ability when they don't want to, the Storyteller may not recognize that nomination or ability use."
+                ]
+            },
+            {
+                "examples": [
+                    "The Gnome enters the game on the 2nd day, and is evil. Lewis is the Demon. At this time, the Storyteller announces that the Gnome is the same alignment as Lewis. On the 2nd day, the Boffin nominates Lewis, and is killed by the Gnome. On the 3rd day, the Zealot nominates Lewis, and is killed by the Gnome. On the 4th day, the Village Idiot nominates Lewis, and the Gnome does not use their ability."
+                ]
+            },
+            {
+                "how-to-run": [
+                    "During the day, as soon as the Gnome has entered play, mark a player of the same alignment with the AMIGO reminder. Declare that this player is the same alignment as the Gnome.",
+                    "If this player is nominated, but before you have started the voting process, if the Gnome player declares that they wish to use their ability, the nominator dies."
+                ]
+            },
+            {
+                "boxes": []
+            },
+            {
+                "alignment": "Both"
+            },
+            {
+                "image_file_name": "Icon_gnome.png"
+            },
+            {
+                "type": "Traveller"
+            }
+        ],
+        "doomsayer": [
+            {
+                "name": "Doomsayer"
+            },
+            {
+                "ability": "If 4 or more players live, each living player may publicly choose (once per game) that a player of their own alignment dies."
+            },
+            {
+                "quote": "And on the Seventh Day, there shall be a great flood and a pestilence upon the People of the Village of the Ravens! The dead shall rise and the living shall repent! O Woe! O Unholy day! Only by great sacrifice shall they prevail! So sayeth the Sages of Nostros and so sayeth I."
+            },
+            {
+                "summary": "Use the Doomsayer to make large games take less time."
+            },
+            {
+                "bullets": [
+                    "The Doomsayer allows players to sacrifice their allies in order to gain information, which shortens the game.",
+                    "Only alive players may use the Doomsayer ability, and each may do so only once per game. It is their responsibility to remember to not use it again.",
+                    "If a player says something like \u201cI use the Doomsayer ability,\u201d then the Storyteller chooses which player to kill, but they must kill an alive player of the same alignment as the player who used the Doomsayer ability. So, if a good player uses the ability, then a good player dies. If an evil player uses the ability, then an evil player dies.",
+                    "Once three players are left alive, the Doomsayer ability may no longer be used."
+                ]
+            },
+            {
+                "examples": [
+                    "The Monk uses the Doomsayer ability, and the Washerwoman dies. Later that day, the Poisoner uses the Doomsayer ability, and the Baron dies.",
+                    "An evil Thief uses the Doomsayer ability, and the Scarlet Woman dies. Later, the Spy uses the Doomsayer ability, and the good Gunslinger dies. Later, the Demon uses the Doomsayer ability, and the Spy dies."
+                ]
+            },
+            {
+                "how-to-run": [
+                    "At any time, declare that the Doomsayer is in play. Add the Doomsayer token to the Grimoire.",
+                    "At any time during the day, if four or more players are alive, a player can declare that they wish to use the Doomsayer ability. When this happens, choose one player of the same alignment. The chosen player dies."
+                ]
+            },
+            {
+                "boxes": [
+                    "You won\u2019t want to kill the Demon this way, unless the game can continue afterwards for some reason, such as if a Scarlet Woman is in play."
+                ]
+            },
+            {
+                "alignment": "Storyteller"
+            },
+            {
+                "image_file_name": "Icon_doomsayer.png"
+            },
+            {
+                "type": "Fabled"
+            }
+        ],
+        "angel": [
+            {
+                "name": "Angel"
+            },
+            {
+                "ability": "Something bad might happen to whoever is most responsible for the death of a new player."
+            },
+            {
+                "quote": "Let those who are without sin dare to raise their hand to my chosen, for I shall strike such fools down with the fury and righteousness of a thousand storms."
+            },
+            {
+                "summary": "Use the Angel to help new players have fun when there are one or two new players in a group of veterans."
+            },
+            {
+                "bullets": [
+                    "Being the only new player in a group can be overwhelming. Being protected by the Angel encourages all players to keep new players alive for as long as possible, which means new players have more fun and contribute to the game more.",
+                    "All players know who is protected by the Angel, but not their alignment or character. Whoever is the single player most responsible for killing a protected player suffers some consequence. For example, if the Demon kills a protected player, the Demon suffers a penalty. If a protected player is executed, the player who suffers a penalty will probably be the one who nominated the protected player."
+                ]
+            },
+            {
+                "examples": [
+                    "The Angel protects Sarah. The Demon attacks and kills her. As punishment, the Demon cannot attack on the next night.",
+                    "Ben is the Demon and is protected by the Angel. The players do not execute him until the final day, at which point they may execute him without penalty."
+                ]
+            },
+            {
+                "how-to-run": [
+                    "At the start of the game, declare that the Angel is in play. Declare which player or players it is protecting, with their consent. Add the Angel token and their reminders to the Grimoire, and mark each protected player with a PROTECTED reminder.",
+                    "If a player marked PROTECTED dies, something bad happens to the player responsible for the death. You may need to mark their character token with the SOMETHING BAD reminder, to remind you that they are now poisoned, or mad, or can\u2019t vote today, or simply as a reminder to decide on what to do later.",
+                    "Remove the Angel at any time, declaring when you do so."
+                ]
+            },
+            {
+                "boxes": [
+                    "The Angel only protects a player if that player wants it to. Ask for their consent before the game begins.",
+                    "The \u201csomething bad\u201d that happens is up to you. However, it is recommended to either make the penalty that the player dies, that the player loses their ability for a day, or that the player may not vote for a day. A light penalty works much better than a severe one.",
+                    "Remove the Angel on the final day, so that players feel free to execute players protected by the Angel."
+                ]
+            },
+            {
+                "alignment": "Storyteller"
+            },
+            {
+                "image_file_name": "Icon_angel.png"
+            },
+            {
+                "type": "Fabled"
+            }
+        ],
+        "buddhist": [
+            {
+                "name": "Buddhist"
+            },
+            {
+                "ability": "For the first 2 minutes of each day, veteran players may not talk."
+            },
+            {
+                "quote": "You throw thorns. Falling in my silence, they become flowers."
+            },
+            {
+                "summary": "Use the Buddhist to help new players have fun when there are one or two veterans in a group of new players."
+            },
+            {
+                "bullets": [
+                    "When experienced players find themselves in a game full of beginners, the veterans will often dominate the game due to their enthusiasm and knowledge.",
+                    "Players affected by the Buddhist cannot talk at all for the first two minutes of each day. They may not whisper in private, and may not talk to each other. They simply listen.",
+                    "This is not a punishment for being talkative. Being talkative is great! Blood on the Clocktower is a talking game, and the more, the merrier. That said, forcing the veterans to stay silent temporarily each day allows the new players to find their own voices, to come up with their own theories, and to take action on their own. It is about fun for everybody.",
+                    "It is common for a player to say \u201cI am a Buddhist\u201d or for the Storyteller to say to them \u201cYou are a Buddhist.\u201d This doesn\u2019t mean that their character is the Buddhist. It is a pleasant shorthand for saying \u201cYou are affected by the Buddhist ability.\u201d This is similar to saying \u201cYou are a Revolutionary.\u201d"
+                ]
+            },
+            {
+                "examples": [
+                    "Lachlan and Lewis are veterans in a game of mostly new players. To encourage the new players to talk, the Storyteller puts the Buddhist in play. Lachlan and Lewis may not talk for the first two minutes each day, after which, they may talk freely.",
+                    "Evin is affected by the Buddhist. He is a Minion and simply listens to what people are saying for the first two minutes, allowing him to bluff as a not-in-play character later on."
+                ]
+            },
+            {
+                "how-to-run": [
+                    "At the start of the game, declare that the Buddhist is in play. Add the Buddhist token to the Grimoire. Declare which players are Buddhists, with their consent. Those players must stay silent for the first two minutes of each day.",
+                    "Remove the Buddhist at any time, declaring when you do so."
+                ]
+            },
+            {
+                "boxes": [
+                    "If no device is available to set a two-minute timer, then use your best judgment as to what is two minutes, and inform the veterans when you feel that the time is up.",
+                    "Like the Angel and the Revolutionary, you\u2019ll want to ask for a player\u2019s consent before affecting them with the Buddhist. Something like this is best: \u201cDo you mind if I make you a Buddhist for this game? You are really good at the game, and I want to give the new players a chance to figure things out for themselves. Is that okay?\u201d"
+                ]
+            },
+            {
+                "alignment": "Storyteller"
+            },
+            {
+                "image_file_name": "Icon_buddhist.png"
+            },
+            {
+                "type": "Fabled"
+            }
+        ],
+        "hellslibrarian": [
+            {
+                "name": "Hell's Librarian"
+            },
+            {
+                "ability": "Something bad might happen to whoever talks when the Storyteller has asked for silence."
+            },
+            {
+                "quote": "Shhhhhh. Please be quiet. It is best not to disturb the Librarian. I've heard it has a temper."
+            },
+            {
+                "summary": "Use the Hell\u2019s Librarian to allow a softly-spoken Storyteller to be heard when needed."
+            },
+            {
+                "bullets": [
+                    "As the Storyteller, you\u2019ll find the Hell\u2019s Librarian useful when it is difficult to get the group\u2019s attention. Maybe you need to explain a game rule? Or get attention for a crucial final-day vote? It can also be used to prevent players from talking about their characters before the game begins or from narrating what they are doing at night. Players instinctively stay quieter during the pre-game period and at night, so you may never need it.",
+                    "It is best to give the players fair warning before you bring the hammer down. Like the Angel, the threat of a mysterious penalty is more important than the actual penalty. The purpose of this character is to make games run smoothly, not to punish minor infringements."
+                ]
+            },
+            {
+                "examples": [
+                    "The Storyteller is attempting to explain the voting rules to a few new players. The group is loud and is not listening to the Storyteller\u2019s requests for silence, so the Storyteller declares that the Hell's Librarian is in play. Two players continue to loudly talk, even though they know the possible penalty. The Storyteller decides that one dies and the other loses their vote for today. All players are silent whilst the rules are explained."
+                ]
+            },
+            {
+                "how-to-run": [
+                    "At any time, declare that the Hell\u2019s Librarian is in play. Add the Hell\u2019s Librarian token and their SOMETHING BAD reminder to the Grimoire.",
+                    "At any time, you can ask the group for silence for a particular period of time. Remind them that the Hell\u2019s Librarian is in play if needed. If a player talks or otherwise interrupts and makes your job difficult during that time, you can let them know that something bad happens to them. You may need to mark their character token with the SOMETHING BAD reminder, to remind you that they are now poisoned, or mad, or can\u2019t vote today, or simply as a reminder to decide on what to do later."
+                ]
+            },
+            {
+                "boxes": [
+                    "Like the Angel, the \u201csomething bad\u201d that might happen is up to you. However, it is recommended to either make the penalty that the player dies, that the player loses their ability for a day, or that the player may not vote for a day. A light penalty works much better than a severe one."
+                ]
+            },
+            {
+                "alignment": "Storyteller"
+            },
+            {
+                "image_file_name": "Icon_hellslibrarian.png"
+            },
+            {
+                "type": "Fabled"
+            }
+        ],
+        "revolutionary": [
+            {
+                "name": "Revolutionary"
+            },
+            {
+                "ability": "2 neighboring players are known to be the same alignment. Once per game, 1 of them registers falsely."
+            },
+            {
+                "quote": "United we feigned.\nDivided, we stalled."
+            },
+            {
+                "summary": "Use the Revolutionary to help disadvantaged players participate."
+            },
+            {
+                "bullets": [
+                    "If a player has an intellectual disability, is unable to understand the rules of the game, is blind or deaf, or is unable to communicate or participate as normal, they may still play by teaming up with a player that they trust.",
+                    "These two players are the same alignment and sit next to each other so they can whisper or signal to each other throughout the game. The experienced player can help the disadvantaged player in whatever way is needed, talking on their behalf or suggesting what to do.",
+                    "The Revolutionary is also useful for couples or good friends who wish to play, but are uncomfortable with lying to or mistrusting each other, even in a game.",
+                    "Once per game, the Storyteller can make either player register as a different character, alignment, or both.",
+                    "The Storyteller may wake both players at night, instead of just the player due to wake, if that helps understanding.",
+                    "If an ability would change a Revolutionary\u2019s alignment, this ability has no effect or it changes both Revolutionaries\u2019 alignment, Storyteller\u2019s choice."
+                ]
+            },
+            {
+                "examples": [
+                    "Mathew is deaf. He teams up with Davo, via the Revolutionary. Mathew draws the Poisoner, and Davo draws the Imp. They can scheme in private, using sign language, so that Mathew can still participate."
+                ]
+            },
+            {
+                "how-to-run": [
+                    "When setting up the game, before giving the bag to the players, declare that the Revolutionary is in play and which two neighboring players are Revolutionaries. Add the Revolutionary token to the Grimoire. Mark the Revolutionaries with the REGISTER FALSELY? reminder between their character tokens.",
+                    "Give the bag to one Revolutionary. They draw a token. Look at their token, choose a token of the same alignment from the bag, and give it to the other Revolutionary. Then, give the bag to the non-Revolutionary players to draw from.",
+                    "Once per game, you can make one player marked REGISTER FALSELY? register as a different character and alignment, then remove the REGISTER FALSELY? reminder."
+                ]
+            },
+            {
+                "boxes": [
+                    "The Revolutionary should only be in play if both players want it to be. Ask for their consent before the game begins."
+                ]
+            },
+            {
+                "alignment": "Storyteller"
+            },
+            {
+                "image_file_name": "Icon_revolutionary.png"
+            },
+            {
+                "type": "Fabled"
+            }
+        ],
+        "fiddler": [
+            {
+                "name": "Fiddler"
+            },
+            {
+                "ability": "Once per game, the Demon secretly chooses an opposing player: all players choose which of these 2 players win."
+            },
+            {
+                "quote": "I'll wager mi lyef ye cannae best me in a fiddle contest, ye boss-eyed snook! We'll go out on the lash, get the pub jammers an' have a right craic. I'll be layin' ma boots into ya come mornin' ye rumbly muppet."
+            },
+            {
+                "summary": "Use the Fiddler to decide a winner if the game must end due to time constraints or a stalemate."
+            },
+            {
+                "bullets": [
+                    "Sometimes there won\u2019t be enough time to finish a game. Maybe the venue you are playing at needs to close. Maybe some players need to leave unexpectedly and the game cannot continue without them. Maybe the Townsfolk refuse to execute and the Demon refuses to kill.",
+                    "The Storyteller can add and activate the Fiddler at any time. To do so, all players close their eyes while the Demon chooses a good player to challenge to a fiddle contest. Then, after a minute or two, all players will raise their hands to vote on which of these two players wins. The game ends, and the winning player\u2019s entire team wins too.",
+                    "Like an exile, this group decision on who wins the game is not affected by abilities, and the dead may vote normally. The Thief cannot steal votes, the Voudon has no effect, and so on.",
+                    "Players cannot use their abilities once the Fiddler has been activated. The Slayer cannot choose to slay a player, the Artist cannot ask their question, and so on.",
+                    "If this fiddle contest is a tie, evil wins."
+                ]
+            },
+            {
+                "examples": [
+                    "There are just four players left alive. Each day, nobody nominates. Each night, the Demon chooses a dead player to kill. Since this could go on indefinitely, the Storyteller adds the Fiddler so that the game can end."
+                ]
+            },
+            {
+                "how-to-run": [
+                    "At any time, if you expect to run out of time, declare that the Fiddler is in play and declare the time when the game will end. Add the Fiddler token to the Grimoire.",
+                    "When the game needs to end, declare that you are using the Fiddler ability. Put all players to sleep. Wake the Demon. They point at any good player. (If the Demon is good, they must choose an evil player instead.) Wake all players and declare that the Demon player and the chosen player are in a fiddle contest. (Do not say what their characters are.) After a minute or two, run a \u201cvote\u201d for each player in the fiddle contest. (This is not an execution vote.) All players may vote. The player with the most votes wins, their team wins, and the game ends. On a tie, the evil team wins."
+                ]
+            },
+            {
+                "boxes": []
+            },
+            {
+                "alignment": "Storyteller"
+            },
+            {
+                "image_file_name": "Icon_fiddler.png"
+            },
+            {
+                "type": "Fabled"
+            }
+        ],
+        "toymaker": [
+            {
+                "name": "Toymaker"
+            },
+            {
+                "ability": "The Demon may choose not to attack & must do this at least once per game. Evil players get normal starting info."
+            },
+            {
+                "quote": "It buzzes! It walks down stairs! It keeps you warm at night! It tastes like sugar! The kiddies love it! Introducing... the brand new... Warm'o-buzzy-wuzzy-walk'a'bot-thingy-contraption! Fun for all ages!"
+            },
+            {
+                "summary": "Use the Toymaker to make small games take more time."
+            },
+            {
+                "bullets": [
+                    "If you created a character list using the Teensyville option in the Script Tool, then you may want to use the Toymaker. Games set in Teensyville have only six Townsfolk, two Outsiders, two Minions, and two Demons on the list, and they specifically cater to five or six players.",
+                    "With the Toymaker in play, the Demon learns three not-in-play characters at the start of the game, and the Minion(s) and Demon learn who each other are. Once per game, the Demon must voluntarily choose to attack nobody tonight. If the Demon is about wake to attack a player and this would end the game, but the Demon has not yet chosen to attack nobody, then the Storyteller does not wake the Demon\u2014they are forced to attack nobody tonight.",
+                    "You may use the Toymaker in games of Trouble Brewing with five or six players, but it is not necessary."
+                ]
+            },
+            {
+                "examples": [
+                    "On the second night, when five players are alive, the Imp chooses not to attack, which allows it to act during the final night. On the third night, when four players are alive, it kills a player.",
+                    "On the second night, the Imp kills a player. On the third night, when just three players are alive, the Imp cannot attack because it is the final night."
+                ]
+            },
+            {
+                "how-to-run": [
+                    "At the start of the game, declare that the Toymaker is in play. Add the Toymaker token to the Grimoire, and mark the Demon with the Toymaker\u2019s FINAL NIGHT: NO ATTACK reminder.",
+                    "On the first night, resolve the \"Minion info\" and \"Demon info\u201d steps on the night sheet even though there are fewer than seven players.",
+                    "Each night the Demon wakes, they may choose not to attack by shaking their head no. If they choose not to attack, remove the FINAL NIGHT: NO ATTACK reminder.",
+                    "During any night, if the Demon would wake and their attack could end the game, but the Demon is marked FINAL NIGHT: NO ATTACK, the Demon does not wake or act tonight."
+                ]
+            },
+            {
+                "boxes": []
+            },
+            {
+                "alignment": "Storyteller"
+            },
+            {
+                "image_file_name": "Icon_toymaker.png"
+            },
+            {
+                "type": "Fabled"
+            }
+        ],
+        "fibbin": [
+            {
+                "name": "Fibbin"
+            },
+            {
+                "ability": "Once per game, 1 good player might get incorrect information."
+            },
+            {
+                "quote": "Tee-hee-hee.\nTee. Hee. Hee."
+            },
+            {
+                "summary": "Add the Fibbin if your script has too much information or no possibility of misinformation."
+            },
+            {
+                "bullets": [
+                    "If you create a character list and it has no characters that cause drunkenness, poisoning, or other ways for information to be false, then you may want to add the Fibbin. Whilst it is not necessary, even a minor chance of a good player\u2019s information being incorrect can drastically help the evil players bluff.",
+                    "The Fibbin does not make an ability fail in the way that drunkenness and poisoning do. It only affects abilities that provide information from the Storyteller signaling to a player during the night or telling them something.",
+                    "If the game ends before you have given a good player incorrect information, that\u2019s okay.",
+                    "Some characters get false information due to their ability. The Fibbin can make this information true."
+                ]
+            },
+            {
+                "examples": [
+                    "On the first night, all players get correct information. On the second night, the Empath learns they are neighbouring one evil player, but both their neighbours are actually good. For the rest of the game, all good players get correct information.",
+                    "The Virgin is nominated by a Townsfolk. This Townsfolk is executed immediately because the Fibbin cannot make an ability malfunction. Later, the Monk protects a player. Again, the Monk's ability cannot fail due to the Fibbin ability. Later, the Ravenkeeper dies at night and gets false information, because information from an ability can be affected by the Fibbin ability."
+                ]
+            },
+            {
+                "how-to-run": [
+                    "At the start of the game, declare that the Fibbin is in play. Add the Fibbin token to the Grimoire.",
+                    "Once per game, when a good player gains information from an ability, you can give them incorrect information. The Fibbin loses their ability\u2014put their NO ABILITY reminder token by their token."
+                ]
+            },
+            {
+                "boxes": []
+            },
+            {
+                "alignment": "Storyteller"
+            },
+            {
+                "image_file_name": "Icon_fibbin.png"
+            },
+            {
+                "type": "Fabled"
+            }
+        ],
+        "duchess": [
+            {
+                "name": "Duchess"
+            },
+            {
+                "ability": "Each day, 3 players may choose to visit you. At night*, each visitor learns how many visitors are evil, but 1 gets false info."
+            },
+            {
+                "quote": "We shall entertain between the hours of 6 and 7 precisely. Tea at 6:15. Scones at 6:45. Do not be late. Formal wear applies, as always."
+            },
+            {
+                "summary": "Add the Duchess if your script has too little information or too much misinformation."
+            },
+            {
+                "bullets": [
+                    "Sometimes, you may want to create a character list using the Script Tool that has hardly any good characters that gain information directly. Whilst having an abundance of abilities and a lack of information can be fun for some players, other players like something more. The Duchess adds regular information to such a game.",
+                    "Each player that visits the Duchess learns how many visitors are evil, including themself. However, one visitor of the Storyteller\u2019s choice will get false information.",
+                    "Players that visit the Duchess still get to use their ability normally. The Duchess does not make their ability give false information.",
+                    "The players decide amongst themselves which players will be the three players to visit. If exactly three visitors cannot be decided upon, then the Duchess does not act tonight."
+                ]
+            },
+            {
+                "examples": [
+                    "The Soldier, Pacifist, and Sage visit the Duchess. The Soldier and Pacifist learn a \"0.\u201d The Sage learns a \"1.\u201d",
+                    "The Mastermind, Imp, and Minstrel visit the Duchess. The Mastermind learns a \"2,\u201d the Imp learns a \"1,\" and the Minstrel learns a \"2.\u201d"
+                ]
+            },
+            {
+                "how-to-run": [
+                    "At the start of the game, declare that the Duchess is in play. Add the Duchess token and their reminders to the Grimoire. Each day, any player may volunteer to visit the Duchess tonight.",
+                    "If exactly three players volunteer to visit the Duchess tonight, then mark two of them with a VISITOR reminder and one of them with a FALSE INFO reminder. If more or less than three players volunteer to visit, do not add these reminders.",
+                    "At night, wake each player marked VISITOR or FALSE INFO one at a time. Show the woken player the Duchess token. If the woken player is marked VISITOR, show them fingers (0, 1, 2, or 3) equaling the number of evil players who are marked either VISITOR or FALSE INFO. If the woken player is marked FALSE INFO, show them any number of fingers except the correct number. Put the woken player to sleep.",
+                    "Remove the Duchess at any time, declaring when you do so."
+                ]
+            },
+            {
+                "boxes": []
+            },
+            {
+                "alignment": "Storyteller"
+            },
+            {
+                "image_file_name": "Icon_duchess.png"
+            },
+            {
+                "type": "Fabled"
+            }
+        ],
+        "sentinel": [
+            {
+                "name": "Sentinel"
+            },
+            {
+                "ability": "There might be 1 extra or 1 fewer Outsider in play."
+            },
+            {
+                "quote": "Name, please.\nPapers, please.\nWeapons, please."
+            },
+            {
+                "summary": "Add the Sentinel to your script to keep the number of Outsiders in play mysterious."
+            },
+            {
+                "bullets": [
+                    "The official character lists are carefully constructed so that the number of Outsiders is never completely known, which lets evil players safely bluff as Outsiders. Many of the games you create using the Script Tool will not have this luxury. If, for one reason or another, the number of Outsiders in a game will become certain, the Storyteller can add a Sentinel. This will confuse matters and help the evil team either bluff as Outsiders or make existing Outsiders look suspicious.",
+                    "Games with a Sentinel in play might have one more Outsider than normal. They may have one less. They may have the normal amount. It is up to the Storyteller."
+                ]
+            },
+            {
+                "examples": [
+                    "There are seven players in this game. There are no characters on the character list that add Outsiders. The Demon bluffs as the Saint. A Sentinel is in play, so the good players are not sure if there is actually a Saint or not.",
+                    "There are nine players in this game. Even though a Baron is on the character list, the good players know no Baron is in play because the Witch just killed a player, so there should be just two Outsiders in play. However, the Outsiders cannot be trusted because a Sentinel is in play. Indeed, there is one less Outsider than normal in this game, and the Witch is bluffing as the Butler."
+                ]
+            },
+            {
+                "how-to-run": [
+                    "At the start of the game, declare that the Sentinel is in play. Add the Sentinel token to the Grimoire.",
+                    "While setting up the game, before putting character tokens in the bag, add an Outsider token and remove a Townsfolk token, remove an Outsider token and add a Townsfolk token, or do neither."
+                ]
+            },
+            {
+                "boxes": []
+            },
+            {
+                "alignment": "Storyteller"
+            },
+            {
+                "image_file_name": "Icon_sentinel.png"
+            },
+            {
+                "type": "Fabled"
+            }
+        ],
+        "spiritofivory": [
+            {
+                "name": "Spirit Of Ivory"
+            },
+            {
+                "ability": "There can't be more than 1 extra evil player.\n"
+            },
+            {
+                "quote": "The Wasteland calls. Bones rise to flesh, then fall to dust. The great spirit grows. The great spirit watches. The great spirit guides. The human listens, or the human is no more."
+            },
+            {
+                "summary": "Add the Spirit of Ivory to your script to keep the number of evil players fair and balanced."
+            },
+            {
+                "bullets": [
+                    "When creating character lists using the Script Tool, it is a good idea to include no more than one character that adds evil characters. If two or more players turn evil, then the evil team can win simply by revealing who they are and winning due to their voting majority. Adding the Spirit of Ivory prevents too many players turning evil, creating a more fun and fair game for the good players.",
+                    "With a Spirit of Ivory in play, only one more player than normal can ever be evil. If a second player would become evil, they stay good instead.",
+                    "The normal number of evil players is printed on the Traveller sheet and on the Setup sheet."
+                ]
+            },
+            {
+                "examples": [
+                    "The Fang Gu attacks an Outsider and creates an evil player. The Devil's Advocate chooses the Goon at night. Normally, the Goon would turn evil, but the Goon remains good because there is already 1 more evil character than normal in play."
+                ]
+            },
+            {
+                "how-to-run": [
+                    "At the start of the game, declare that the Spirit of Ivory is in play. Add the Spirit of Ivory token and their reminder token to the Grimoire.",
+                    "At all times, if there is an extra evil character in play, mark the Spirit of Ivory with the NO MORE EVIL reminder. (If any character becomes good, remove the reminder.)",
+                    "If a player would become evil and the Spirit of Ivory is marked NO MORE EVIL, that player stays good."
+                ]
+            },
+            {
+                "boxes": []
+            },
+            {
+                "alignment": "Storyteller"
+            },
+            {
+                "image_file_name": "Icon_spiritofivory.png"
+            },
+            {
+                "type": "Fabled"
+            }
+        ],
+        "djinn": [
+            {
+                "name": "Djinn"
+            },
+            {
+                "ability": "Use the Djinn's special rule. All players know what it is."
+            },
+            {
+                "quote": "\u0646\u062d\u0646 \u0644\u0633\u0646\u0627 \u0647\u0646\u0627.\n\u0627\u0646\u062a \u0644\u0633\u062a \u062d\u0642\u064a\u0642\u064a.\n\u0643\u0644 \u0634\u064a\u0621 \u0647\u0648 \u0648\u0647\u0645.\n\u0623\u0633\u0626\u0644\u062a\u0643 \u0647\u064a \u062c\u0628\u0644 \u0646\u0627\u0631 \u0641\u064a \u064a\u0648\u0645 \u0635\u0627\u0641\u064d."
+            },
+            {
+                "summary": "Add the Djinn to all games with a jinx icon on the script. The Djinn resolves jinxes by creating a unique rule."
+            },
+            {
+                "bullets": [
+                    "When creating a character list using the Script Tool, some character combinations will be marked as unusual. These two characters are jinxed\u2014they have abilities that clash or contradict each other in some way. The Djinn creates a special rule that allows these characters to work well together. Some jinxed characters even work better with the Djinn in play!",
+                    "The Djinn\u2019s special rule is described by the Script Tool online, and is printed out automatically when you create a script with a character combination that is jinxed.",
+                    "There are many different Djinn special rules. Each is tailored to a specific pair of jinxed characters.",
+                    "If there are jinxed characters on the character sheet, even if there are no jinxed characters in play, the Storyteller tells all players what the Djinn\u2019s special rule is at the start of the game.",
+                    "The Djinn may have several special rules at once. If there are multiple pairs of jinxed characters on the character sheet, the players learn all the Djinn\u2019s special rules."
+                ]
+            },
+            {
+                "examples": [
+                    "The Pit-Hag and the Heretic are Jinxed. At the start of the game, the Storyteller reads out the Djinn's special rule: \u201cA Pit-Hag cannot create a Heretic.\u201d Later in the game, the Pit-Hag tries to create a Heretic. The Storyteller shakes their head, and the Pit-Hag must choose another character to create.",
+                    "The Spy and the Magician are Jinxed. At the start of the game, the Storyteller reads out the Djinn's special rule: \"When the Spy sees the grimoire, the Demon and the Magician's character tokens are removed.\" There is no Spy and no Magician in play, but the Storyteller reads this aloud anyway so that the good team doesn't know which Minion is in play."
+                ]
+            },
+            {
+                "how-to-run": [
+                    "At the start of the game, if there are jinxed characters on the character sheet, declare that the Djinn is in play and inform the group of all Djinn special rules for this game. (Do this even if there are no jinxed characters in play.)",
+                    "Follow the Djinn instructions as listed on the Script Tool printout."
+                ]
+            },
+            {
+                "boxes": []
+            },
+            {
+                "alignment": "Storyteller"
+            },
+            {
+                "image_file_name": "Icon_djinn.png"
+            },
+            {
+                "type": "Fabled"
+            }
+        ],
+        "bootlegger": [
+            {
+                "name": "Bootlegger"
+            },
+            {
+                "ability": "This script has homebrew characters or rules."
+            },
+            {
+                "quote": "I've got the latest shipment from home, a brew I'd like to call 'Barrowfog'. Wanna try?"
+            },
+            {
+                "summary": "Add the Bootlegger to include homebrew characters or rules."
+            },
+            {
+                "bullets": [
+                    "The Bootlegger allows Storytellers to use characters they, or others, have created that are not official characters or allows them to use non-standard rules in the game.",
+                    "If there are homebrew characters on the character sheet, or homebrew rules in effect, the Storyteller tells all players what they are before play begins.",
+                    "The Bootlegger allows for multiple characters or rules to be in effect at once.",
+                    "As long as there is at least one homebrew character on the current script, this Fabled will be in play and can only be removed by switching to a script that does not contain any homebrew characters.",
+                    "The Bootlegger is designed for use in the official app only.",
+                    "Bootlegger, despite many claims to the contrary, defeated Homebrewy McHomebrewface, \u201cthe people\u2019s choice\u201d, in a hotly contested poll to decide the Fabled\u2019s name."
+                ]
+            },
+            {
+                "examples": [
+                    "The character sheet contains the homebrew character the Peasant. The Storyteller announces that the Bootlegger is in play and then explains how the Peasant works.",
+                    "The Storyteller has a homebrew or house rule. The Storyteller announces that the Bootlegger is in play and explains what the homebrew rule is and how it will affect the game."
+                ]
+            },
+            {
+                "how-to-run": [
+                    "At the start of the game, if there are homebrew characters on the character sheet or you are running homebrew rules, declare that the Bootlegger is in play and inform the group of all the homebrew characters and/or rules you are using in this game."
+                ]
+            },
+            {
+                "boxes": []
+            },
+            {
+                "alignment": "Storyteller"
+            },
+            {
+                "image_file_name": "Icon_bootlegger.png"
+            },
+            {
+                "type": "Fabled"
+            }
+        ],
+        "deusexfiasco": [
+            {
+                "name": "Deus Ex Fiasco"
+            },
+            {
+                "ability": "At least once per game, the Storyteller will make a mistake, correct it, and publicly admit to it."
+            },
+            {
+                "quote": "It\u2019s not a bug, it\u2019s a feature. It\u2019s not an error, it\u2019s a tweak. It\u2019s not broken, it\u2019s quirky."
+            },
+            {
+                "summary": "Use the Deus ex Fiasco to neutralize mistakes and increase your confidence when running a difficult script."
+            },
+            {
+                "bullets": [
+                    "The Deus ex Fiasco must be announced at the start of the game. It may never be added partway through the game. Hypothetically, if the Storyteller makes a mistake mid-game, and adds the Deus ex Fiasco afterwards, all players would know that the mistake was real and the Deus ex Fiasco would not work.",
+                    "The Storyteller must make a mistake. This can be an accidental mistake, or a deliberate mistake. The players are not told which.",
+                    "If the Storyteller has made an accidental mistake, they do not have to make additional mistakes. If the game is approaching the final day and the Storyteller has not made an accidental mistake, they must make a deliberate mistake before the game ends.",
+                    "All mistakes, whether deliberate or accidental, must be corrected. The Storyteller may need to break the rules in order to fix a mistake. Any time after a mistake is made, the Storyteller must inform the group that a mistake has been made and corrected. The exact nature of the mistake is not revealed to the group, but may need to be revealed to an affected player in private."
+                ]
+            },
+            {
+                "examples": [
+                    "During the first day, Doug talks privately with the Storyteller and says that he drew the Drunk token from the bag. The Storyteller looks in the Grimoire and notices that Doug\u2019s token is the Drunk. The Storyteller tells Doug that he is now the Mayor, replaces the Drunk token with the Mayor token in the Grimoire, and secretly makes the Ravenkeeper the Drunk instead. Later that day, the Storyteller declares that a mistake has been made."
+                ]
+            },
+            {
+                "how-to-run": [
+                    "At the start of the game, declare that the Deus ex Fiasco is in play. Ignore any groans and complaints from players.",
+                    "At any time, if you make a mistake, correct it as best you can, bending the rules if needed. Afterwards, declare that you have made a mistake. Add the WHOOPSIE reminder to the Grimoire.",
+                    "At any time, you may deliberately break the rules, then correct it. Afterwards, declare that you have made a mistake. Add the WHOOPSIE reminder to the Grimoire."
+                ]
+            },
+            {
+                "boxes": [
+                    "Remember: Fabled characters are not designed for extra spice. They are characters whose purpose is to help you, as the Storyteller, to run smooth and inclusive games."
+                ]
+            },
+            {
+                "alignment": "Storyteller"
+            },
+            {
+                "image_file_name": "Icon_deusexfiasco.png"
+            },
+            {
+                "type": "Fabled"
+            }
+        ],
+        "ferryman": [
+            {
+                "name": "Ferryman"
+            },
+            {
+                "ability": "On the final day, all dead players regain their vote token."
+            },
+            {
+                "quote": "When righteous dreams come, they have the weight of truth."
+            },
+            {
+                "summary": "Use the Ferryman to create a fun and inclusive climax to the game even if new players have used their vote tokens."
+            },
+            {
+                "bullets": [
+                    "If you are running a game for newer players who don\u2019t yet grasp the strategy of when to use their dead votes, or have used them when they forgot they were dead, you can add the Ferryman. This will ensure everyone gets a say in the final day\u2019s critical votes.",
+                    "All dead players regain their vote tokens on the final day, regardless of alignment or when they voted.",
+                    "If a dead player still has their vote token, they do not get a second one from the Ferryman.",
+                    "The final day is the day that the Storyteller thinks is most likely to be the last day of the game \u2013 the day where, if the Demon is not executed, evil will win. This most likely means the day with only 3 living players remaining.",
+                    "If vote tokens are used on the final day, they aren\u2019t returned."
+                ]
+            },
+            {
+                "examples": [
+                    "Most of the group is new. Two players, Amy and Doug, forgot they were dead in the excitement of voting. The Storyteller puts the Ferryman in play. Later in the game, when there are three players left alive, the Storyteller declares that it is the final day. Amy and Doug regain their vote tokens.",
+                    "It is the start of the final day. 17 players are dead and three players are alive. 10 dead players have used their vote tokens. In order to create a more fun and engaging final day, the Storyteller adds the Ferryman and those dead players regain their vote tokens. After a riotously entertaining final day, the Storyteller is celebrated for maximizing the players\u2019 enjoyment."
+                ]
+            },
+            {
+                "how-to-run": [
+                    "During the game, when you notice that it would be a good idea to add it, declare that the Ferryman is in play. Add the Ferryman token to the Grimoire.",
+                    "At the start of the final day, ask the players to return vote tokens to any dead players that do not have one in the Town Square."
+                ]
+            },
+            {
+                "boxes": []
+            },
+            {
+                "alignment": "Storyteller"
+            },
+            {
+                "image_file_name": "Icon_ferryman.png"
+            },
+            {
+                "type": "Fabled"
+            }
+        ],
+        "gardener": [
+            {
+                "name": "Gardener"
+            },
+            {
+                "ability": "The Storyteller assigns 1 or more players' characters."
+            },
+            {
+                "quote": "Oh now, this won't do. We've got the monkshood mixed in with the wolfsbane and the hemlock is smothering the hellebore! Oh dear me, we'd better start over. Fetch my shears."
+            },
+            {
+                "summary": "Use the Gardener to assign characters to particular players."
+            },
+            {
+                "bullets": [
+                    "After the Storyteller has put the Gardener into play, they can manually assign and edit which characters are going to be given to which seated players before sending them out.",
+                    "If a player has an issue with a particular character, you may use the Gardener to affect setup so that player doesn\u2019t draw the relevant token.",
+                    "The Gardener can also be useful if a particular player has drawn evil many times over a single session.",
+                    "The Gardener is designed for use in the official app only."
+                ]
+            },
+            {
+                "examples": [
+                    "The Vizier is on the script and Ida doesn\u2019t like playing as outed evil. To ensure that Ida doesn\u2019t receive the Vizier token, the Storyteller puts the Gardener into play and assigns Ida directly as the Poisoner instead.",
+                    "Robin has been evil every game today. The Storyteller puts the Gardener into play and assigns Robin directly as the Chef instead."
+                ]
+            },
+            {
+                "how-to-run": [
+                    "At the start of the game, declare that the Gardener is in play.",
+                    "Before character tokens are sent out to players, decide what characters the players affected by Gardener will have. Assign, or swap, the relevant players to the characters you have decided.",
+                    "Then, send the characters to players in the game."
+                ]
+            },
+            {
+                "boxes": []
+            },
+            {
+                "alignment": "Storyteller"
+            },
+            {
+                "image_file_name": "Icon_gardener.png"
+            },
+            {
+                "type": "Fabled"
+            }
+        ],
+        "princess": [
+            {
+                "name": "Princess"
+            },
+            {
+                "ability": "On your 1st day, if you nominated & executed a player, the Demon doesn\u2019t kill tonight."
+            },
+            {
+                "quote": "Our words are hounds, bound by silken threads, dear lords. Let kindness weave them true, lest the reigns unravel and rend our court."
+            },
+            {
+                "summary": "The Princess decides which player dies first."
+            },
+            {
+                "bullets": [
+                    "For the Princess ability to work, the player that the Princess nominated must be the one executed. Players executed but nominated by others don\u2019t count.",
+                    "The executed player does not have to die for the Princess ability to work.",
+                    "Exiles don\u2019t count for the Princess ability.",
+                    "If the Princess is drunk during the day, then sober at night, they prevent the Demon from killing. If the Princess is sober during the day, but drunk at night, they do not.",
+                    "At night, non-Demon kills happen as normal.",
+                    "At night, the Demon still chooses a player to kill, but they do not die. Other parts of the Demon\u2019s ability, such as poisoning players, making false information, etc. happen as normal.",
+                    "The Princess does not have to nominate on their 1st day.",
+                    "If a Princess is created mid-game, and they nominate and execute a player on their 1st day as a Princess, the Demon doesn\u2019t kill that night."
+                ]
+            },
+            {
+                "examples": [
+                    "The Princess nominates the Preacher. The Preacher is executed, and dies. That night, the Vortox chooses the Pixie, who does not die. The Town Crier learns that a Minion nominated today, which is false information due to the Vortox.",
+                    "On night 4, the Pit-Hag turns the Dreamer into the Princess. That day, the Princess nominates the Zealot, who is executed. That night, the Kazali chooses the Princess, who does not die."
+                ]
+            },
+            {
+                "how-to-run": [
+                    "If the Princess nominates and executes a player, mark the Demon with the DOESN'T KILL reminder.",
+                    "Tonight, if the Demon would wake to choose a player, wake them as normal. The Demon does not kill."
+                ]
+            },
+            {
+                "boxes": []
+            },
+            {
+                "alignment": "Good"
+            },
+            {
+                "image_file_name": "Icon_princess.png"
+            },
+            {
+                "type": "Townsfolk"
+            }
+        ],
+        "wraith": [
+            {
+                "name": "Wraith"
+            },
+            {
+                "ability": "You may choose to open your eyes at night. You wake when other evil players do."
+            },
+            {
+                "quote": "Ra'\u0101b ina p\u0101n \u1e63illi \u0161a d\u0101ri. Rigim qallu ina \u0161\u016bri, \u0161\u012btu \u0161a \u0161un\u0101t\u012bka iredde, u nap\u0161utka idlul ina p\u0101n ma\u1e63\u1e63art\u012b d\u0101riti.\u201d"
+            },
+            {
+                "summary": "The Wraith knows and shares what happens at night."
+            },
+            {
+                "bullets": [
+                    "The Wraith may open their eyes at any point during the night, for as long or as short a time as they wish.",
+                    "They may open their eyes fully, or just peek.",
+                    "The Storyteller wakes the Wraith when other evil players also wake, such as when the Demon kills a player, an evil Traveller uses their ability, or a Cult Leader learns that they are evil.",
+                    "When several players have their eyes open at once, they may communicate if they wish.",
+                    "If a good player catches the Wraith with their eyes open, there is no mechanical effect.",
+                    "A dead Wraith may not open their eyes at night. A drunk or poisoned Wraith is told by the Storyteller that they may not open their eyes that night."
+                ]
+            },
+            {
+                "examples": [
+                    "During the first night the Wraith peeks at other players, and notices which good players wake and which do not. During the second night, the Wraith opens their eyes more fully and notices that Doug was woken and pointed to two players tonight. During the 3rd night, when both the Wraith and the Demon wake together, the Wraith uses body language and points to the character sheet to communicate to the Demon to kill Doug, whom the Wraith believes is the Fortune Teller."
+                ]
+            },
+            {
+                "how-to-run": [
+                    "Each time you wake an evil player at night, first wake the Wraith. When you put that evil player to sleep, put the Wraith to sleep.",
+                    "If the Wraith loses their ability while alive, privately tell the Wraith that they may not choose to open their eyes tonight, and do not wake them when other evil players wake."
+                ]
+            },
+            {
+                "boxes": [
+                    "Optional rule: Once per game, a player that is mad that you are the Wraith, dies."
+                ]
+            },
+            {
+                "alignment": "Evil"
+            },
+            {
+                "image_file_name": "Icon_wraith.png"
+            },
+            {
+                "type": "Minion"
             }
         ]
     }

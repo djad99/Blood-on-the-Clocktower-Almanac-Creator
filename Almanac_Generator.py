@@ -67,6 +67,10 @@ def add_characters(doc, is_script_almanac):
         character_color = RGBColor(0x06, 0x63, 0xB9)
         if character_information[8]["alignment"] == "Evil":
             character_color = RGBColor(0x9B, 0x00, 0x00)
+        elif character_information[10]["type"] == "Traveller":
+            character_color = RGBColor(0x9B, 0x00, 0x9B)
+        elif character_information[10]["type"] == "Fabled":
+            character_color = RGBColor(0xFF, 0xD5, 0x05)
 
         # If creating a script almanac, the character type changes, and there's an uneven amount of characters
         # in a section, make a column break
@@ -202,6 +206,8 @@ def tomd_order():
     outsiders = []
     minions = []
     demons = []
+    travellers = []
+    fabled = []
 
     for character in characters:
         if master_almanac["characters"][character][10]["type"] == "Townsfolk":
@@ -210,8 +216,12 @@ def tomd_order():
             outsiders.append(character)
         elif master_almanac["characters"][character][10]["type"] == "Minion":
             minions.append(character)
-        else:
+        elif master_almanac["characters"][character][10]["type"] == "Demon":
             demons.append(character)
+        elif master_almanac["characters"][character][10]["type"] == "Traveller":
+            travellers.append(character)
+        else:
+            fabled.append(character)
 
     if "y" in input("Would you like this sorted in Steven Approved Order?").lower():
         townsfolk = sort_characters(townsfolk, "Townsfolk")
@@ -223,6 +233,8 @@ def tomd_order():
     characters.extend(outsiders)
     characters.extend(minions)
     characters.extend(demons)
+    characters.extend(travellers)
+    characters.extend(fabled)
 
 
 def filter_characters(script_characters):
@@ -268,9 +280,10 @@ def create_master_almanac():
     doc.add_page_break()
     
     if 'y' in input("Would you like this sorted in Townsfolk Outsider Minion Demon order (default is full alphabetical): "):
-    	tomd_order()
-
-    doc = add_characters(doc, False)
+        tomd_order()
+        doc = add_characters(doc, True)
+    else:
+        doc = add_characters(doc, False)
 
     doc.save("Master Almanac.docx")
 
@@ -376,13 +389,14 @@ def add_character():
         boxes.append(input("Box : "))
     icon_file_path = "Icon_"+transform_character_name(name)+".png"
     type = input("Character type: ")
-    character_after_sao = ""
-    if "y" not in input("Are they first relative to their character type in Steven Approved Order? "):
-        character_after_sao = input("What character do they go after in SAO: ")
 
-    alignment = "Evil"
-    if type == "Townsfolk" or type == "Outsiders":
-        alignment = "Good"
+    alignment = "Good"
+    if type == "Minion" or type == "Demon":
+        alignment = "Evil"
+    elif type == "Traveller":
+        alignment = "Both"
+    elif type == "Fabled":
+        alignment = "Storyteller"
 
     addition = [{
         "name": name.title()
@@ -416,6 +430,15 @@ def add_character():
     with open(master_almanac_filename, 'w') as f:
         json.dump(master_almanac, f, indent=4)
 
+    # Return early if there isn't 
+    if type == "Traveller" or type == "Fabled":
+        return
+
+    character_after_sao = ""
+    if "y" not in input("Are they first relative to their character type in Steven Approved Order? "):
+        character_after_sao = input("What character do they go after in SAO: ")
+
+    # There is a Steven Approved Order
     sao_original = sao_order[type]
     if character_after_sao == "":
         sao_original.insert(0, transform_character_name(name))
